@@ -1,0 +1,348 @@
+{
+  "examTitle": "Chapter 1: Electrocardiography",
+  "chapterSource": "Ch1_Electrocardiography.pdf",
+  "domains": [
+    "ECG Fundamentals",
+    "Technician Role & Equipment",
+    "Professionalism & Legal/Ethical",
+    "Infection Control",
+    "Vital Signs"
+  ],
+  "questions": [
+    {
+      "id": "c1-01",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "What is cardiovascular disease?",
+      "options": [
+        "Disease related to the heart and blood vessels (veins and arteries)",
+        "Narrowing of the heart's blood vessels that causes a reduction of blood flow to the heart",
+        "A tracing of the signal produced by the heart's electrical activity",
+        "Guidelines that apply to blood, body fluids, secretions, and excretions"
+      ],
+      "correct": 0,
+      "explanation": "Cardiovascular disease is the broad umbrella term for any disease affecting the heart and blood vessels. Coronary artery disease (the narrowing option) is one specific type of cardiovascular disease, not the general term."
+    },
+    {
+      "id": "c1-02",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "What is an electrocardiogram?",
+      "options": [
+        "An instrument used to record the electrical activity of the heart",
+        "A tracing of the signal produced by the heart's electrical activity, used for diagnostic evaluation",
+        "A machine that delivers an electrical shock to correct an abnormal heart rhythm",
+        "Narrowing of the heart's blood vessels that reduces blood flow"
+      ],
+      "correct": 1,
+      "explanation": "The electrocardiogram (ECG) is the tracing itself — the output. The electrocardiograph, by contrast, is the instrument that produces that tracing. Easy pair to mix up, but the '-gram' is the record, the '-graph' is the machine."
+    },
+    {
+      "id": "c1-03",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "What is coronary artery disease?",
+      "options": [
+        "Disease related to the heart and blood vessels broadly",
+        "A tracing of the heart's electrical signal",
+        "Narrowing of the heart's blood vessels, causing a reduction of blood flow to the heart",
+        "Guidelines followed when there is a possibility of exposure to blood or body fluids"
+      ],
+      "correct": 2,
+      "explanation": "Coronary artery disease refers specifically to the narrowing of the coronary arteries that supply the heart itself, reducing blood flow. It's a specific subtype under the broader umbrella of cardiovascular disease."
+    },
+    {
+      "id": "c1-04",
+      "domain": "Infection Control",
+      "lo": "1.4",
+      "question": "What are standard precautions?",
+      "options": [
+        "The second level of protection against disease transmission, based on how the infectious agent spreads",
+        "Guidelines that apply to blood, body fluids, secretions, and excretions (except sweat), followed whenever there's a possibility of exposure",
+        "A machine used to analyze heart rhythm and deliver a shock if necessary",
+        "Narrowing of blood vessels that reduces blood flow to the heart"
+      ],
+      "correct": 1,
+      "explanation": "Standard precautions are the baseline infection-control guidelines applied to every patient, every time, regardless of known infection status. Isolation precautions (the 'second level' option) are the additional layer added on top when a specific transmission route is known or suspected."
+    },
+    {
+      "id": "c1-05",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "What is an electrocardiograph?",
+      "options": [
+        "An instrument used to record the electrical activity of the heart",
+        "A tracing of the signal produced by the heart's electrical activity",
+        "A machine used to analyze heart rhythm and produce a shock if necessary",
+        "Guidelines that apply to blood and body fluids"
+      ],
+      "correct": 0,
+      "explanation": "The electrocardiograph is the physical machine/instrument. The electrocardiogram is the tracing it produces. Same root word, different roles — machine vs. output."
+    },
+    {
+      "id": "c1-06",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "What is a defibrillator?",
+      "options": [
+        "A device used to analyze heart rhythm and produce a shock only if necessary",
+        "A machine that delivers an electrical shock to the heart intended to correct an abnormal electrical pattern",
+        "An instrument used to record the electrical activity of the heart",
+        "Guidelines that apply to blood, body fluids, secretions, and excretions"
+      ],
+      "correct": 1,
+      "explanation": "A defibrillator delivers a shock to correct an abnormal rhythm. The distinction from an AED is that a standard defibrillator is typically operated by trained personnel who interpret the rhythm themselves, whereas an AED analyzes the rhythm and decides whether a shock is warranted."
+    },
+    {
+      "id": "c1-07",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "What is an AED (Automated External Defibrillator)?",
+      "options": [
+        "A machine that always delivers a shock regardless of the heart rhythm present",
+        "An instrument used only to record the heart's electrical activity, with no shock capability",
+        "A device used to analyze the heart rhythm and produce a shock if necessary",
+        "The second level of protection against disease transmission"
+      ],
+      "correct": 2,
+      "explanation": "An AED is designed to be used with minimal training — it analyzes the patient's rhythm itself and only delivers a shock if the rhythm is one that would actually benefit from defibrillation."
+    },
+    {
+      "id": "c1-08",
+      "domain": "Infection Control",
+      "lo": "1.4",
+      "question": "What are isolation precautions?",
+      "options": [
+        "Guidelines that apply to blood, body fluids, secretions, and excretions, followed for every patient",
+        "The second level of protection against the transmission of disease, based on how the infectious agent is transmitted",
+        "Narrowing of the heart's blood vessels",
+        "A tracing of the heart's electrical signal"
+      ],
+      "correct": 1,
+      "explanation": "Isolation precautions are added on top of standard precautions for specific, known infections, and are tailored to the way that particular pathogen spreads (airborne, droplet, or contact)."
+    },
+    {
+      "id": "c1-09",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "True or False: An ECG machine produces and records the electrical activity of the heart.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. The electrocardiograph detects the heart's electrical signals through electrodes placed on the skin and produces the ECG tracing from that activity."
+    },
+    {
+      "id": "c1-10",
+      "domain": "Infection Control",
+      "lo": "1.4",
+      "question": "True or False: Standard precautions are guidelines written for healthcare providers to help prevent the spread of infection.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. Standard precautions exist precisely to reduce the risk of transmitting infection between patients and healthcare workers, and are applied consistently regardless of a patient's known infection status."
+    },
+    {
+      "id": "c1-11",
+      "domain": "Professionalism & Legal/Ethical",
+      "lo": "1.3",
+      "question": "True or False: Libel is the act of making derogatory remarks about someone.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "explanation": "False — this statement is incomplete. Libel specifically refers to making derogatory or false remarks about someone in writing. Making the same kind of remarks verbally is called slander. The medium (written vs. spoken) is what distinguishes the two."
+    },
+    {
+      "id": "c1-12",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "True or False: A transtelephonic monitor transmits an ECG over the Internet.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "explanation": "False. A transtelephonic monitor transmits the ECG signal over a telephone line (or cell connection), not specifically the Internet. 'Transtelephonic' literally points to the phone as the transmission method."
+    },
+    {
+      "id": "c1-13",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "What is the normal range for an adult's pulse?",
+      "options": ["40-80 beats per minute", "50-60 beats per minute", "60-100 beats per minute", "90-120 beats per minute"],
+      "correct": 2,
+      "explanation": "60-100 beats per minute is the accepted normal resting range for an adult. Below 60 is bradycardia; above 100 is tachycardia (with some individual variation, e.g. conditioned athletes running lower)."
+    },
+    {
+      "id": "c1-14",
+      "domain": "ECG Fundamentals",
+      "lo": "1.1",
+      "question": "Which physician received a Nobel Prize for inventing the electrocardiograph?",
+      "options": ["Augustus D. Waller", "Sir Thomas Lewis", "Willem Einthoven", "Joseph Lister"],
+      "correct": 2,
+      "explanation": "Willem Einthoven developed the string galvanometer ECG and won the Nobel Prize in Physiology or Medicine for it in 1924. Waller had recorded earlier heart electrical activity, but it was Einthoven's device that made clinical ECG practical."
+    },
+    {
+      "id": "c1-15",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "What is the main responsibility of an ECG monitor technician?",
+      "options": [
+        "Viewing and evaluating ECG tracings on an oscilloscope and alerting healthcare professionals when abnormalities appear",
+        "Attaching ECG electrodes to patients who will be monitored remotely",
+        "Assisting physicians with angioplasty, heart surgery, and pacemaker implantation",
+        "Performing ultrasounds on patients' blood vessels"
+      ],
+      "correct": 0,
+      "explanation": "The ECG monitor technician's core job is continuous surveillance — watching the tracing in real time and flagging abnormalities to the care team promptly, rather than performing the hands-on procedures themselves."
+    },
+    {
+      "id": "c1-16",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "Which of the following is NOT a reason for performing an ECG?",
+      "options": [
+        "To evaluate heart conditions",
+        "To check for problems with the flow of electricity through the heart",
+        "To see how well the heart is contracting and pumping",
+        "To evaluate the rate and rhythm of breathing"
+      ],
+      "correct": 3,
+      "explanation": "An ECG evaluates the heart's electrical activity, not respiration. Rate and rhythm of breathing is assessed separately as a vital sign, not through an ECG tracing."
+    },
+    {
+      "id": "c1-17",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "A defibrillator can be used to...",
+      "options": [
+        "treat an abnormal heart rhythm.",
+        "without training.",
+        "produce an electrical rhythm from nothing.",
+        "record the patient's breathing pattern."
+      ],
+      "correct": 0,
+      "explanation": "A defibrillator's purpose is to correct an existing abnormal rhythm by delivering a controlled shock — it doesn't create a rhythm out of nowhere, and standard defibrillators (unlike AEDs) do require trained operators."
+    },
+    {
+      "id": "c1-18",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "Transtelephonic monitoring allows for information to be...",
+      "options": [
+        "reviewed immediately by the patient.",
+        "transmitted over a telephone.",
+        "submitted for billing purposes only.",
+        "recorded by a computerized device."
+      ],
+      "correct": 1,
+      "explanation": "As the name implies, transtelephonic monitoring's defining feature is transmission over a phone line or cell connection to a monitoring facility or physician's office."
+    },
+    {
+      "id": "c1-19",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "A continuous ECG monitor is used most commonly in a(n)...",
+      "options": ["physician's office.", "hospital.", "assisted-living center.", "clinic."],
+      "correct": 1,
+      "explanation": "Continuous, real-time monitoring requires staff actively watching the tracing at all times, which is why it's most commonly implemented in the hospital setting rather than an outpatient office or clinic."
+    },
+    {
+      "id": "c1-20",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "A person whose blood pressure has been above normal for two or more doctor visits may be diagnosed with:",
+      "options": ["Low cardiac output", "Low blood volume", "Hypotension", "Hypertension"],
+      "correct": 3,
+      "explanation": "Hypertension is diagnosed based on a pattern of elevated blood pressure readings across multiple visits, not from a single reading. Hypotension is the opposite condition — abnormally low blood pressure."
+    },
+    {
+      "id": "c1-21",
+      "domain": "Professionalism & Legal/Ethical",
+      "lo": "1.3",
+      "question": "To write derogatory words about a patient is:",
+      "options": ["Slander", "Libel", "A HIPAA violation", "Ethical"],
+      "correct": 1,
+      "explanation": "Libel is the written form of making false or derogatory statements about someone. Slander is the spoken equivalent — same basic act, different medium."
+    },
+    {
+      "id": "c1-22",
+      "domain": "Technician Role & Equipment",
+      "lo": "1.2",
+      "question": "Your most important duties include watching an ECG tracing and notifying the physician of abnormalities. You are most likely a(n):",
+      "options": ["ECG monitoring technician", "Cardiovascular technologist", "ECG technician", "Physician assistant"],
+      "correct": 0,
+      "explanation": "This job description — continuous observation and alerting on abnormalities — is the defining role of the ECG monitoring technician, distinct from the ECG technician (who typically performs the test itself) or broader cardiovascular technologist roles."
+    },
+    {
+      "id": "c1-23",
+      "domain": "Professionalism & Legal/Ethical",
+      "lo": "1.3",
+      "question": "Which of the following measures helps ensure that your patients' information is protected?",
+      "options": ["Standard precautions", "Isolation precautions", "Patient precautions", "HIPAA"],
+      "correct": 3,
+      "explanation": "HIPAA (the Health Insurance Portability and Accountability Act) is the federal law specifically governing the privacy and security of patient health information. Standard and isolation precautions relate to infection control, not information privacy."
+    },
+    {
+      "id": "c1-24",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "For how long should you count a patient's respirations?",
+      "options": ["10 seconds", "15 seconds", "30 seconds", "60 seconds"],
+      "correct": 3,
+      "explanation": "A full 60-second count is preferred for respirations specifically because breathing rate and pattern can be irregular, and a full minute gives a more accurate picture than a shorter count multiplied up."
+    },
+    {
+      "id": "c1-25",
+      "domain": "Infection Control",
+      "lo": "1.4",
+      "question": "What is the single most important procedure you can perform to prevent the spread of infection?",
+      "options": ["Standard precautions", "Hand hygiene", "Patient education", "Communication"],
+      "correct": 1,
+      "explanation": "Hand hygiene is consistently identified as the single most effective infection-control measure available — it's the foundation that standard precautions are built around."
+    },
+    {
+      "id": "c1-26",
+      "domain": "Professionalism & Legal/Ethical",
+      "lo": "1.3",
+      "question": "When speaking to a person who is hard of hearing, it is important to speak:",
+      "options": ["in high-pitched tones.", "rapidly.", "slowly and distinctly.", "loudly."],
+      "correct": 2,
+      "explanation": "Speaking slowly and distinctly (rather than simply louder) improves clarity for patients who are hard of hearing, since volume alone doesn't fix comprehension issues and can come across as harsh."
+    },
+    {
+      "id": "c1-27",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "Which of the following is NOT considered a vital sign?",
+      "options": ["Blood pressure", "Pain assessment", "Urinary output", "Respirations"],
+      "correct": 2,
+      "explanation": "The traditional vital signs are temperature, pulse, respirations, and blood pressure — with pain assessment often included as a 'fifth vital sign.' Urinary output is an important clinical measure but isn't classified as a vital sign."
+    },
+    {
+      "id": "c1-28",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "Which of the following is an appropriate pulse point for measuring an adult's pulse?",
+      "options": ["Radial artery", "Popliteal artery", "Brachial artery", "Abdominal aorta"],
+      "correct": 0,
+      "explanation": "The radial artery, at the wrist, is the most commonly used and most practical site for routine adult pulse checks. The others are used in specific clinical contexts but aren't the standard go-to site."
+    },
+    {
+      "id": "c1-29",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "The systolic blood pressure represents the blood pressure when:",
+      "options": [
+        "the right atrium relaxes.",
+        "the left ventricle contracts.",
+        "the right ventricle relaxes.",
+        "the left atrium contracts."
+      ],
+      "correct": 1,
+      "explanation": "Systolic pressure is measured at the moment the left ventricle contracts and forcefully ejects blood into the aorta — the peak pressure in the arterial system. Diastolic pressure, by contrast, reflects the resting phase between beats."
+    },
+    {
+      "id": "c1-30",
+      "domain": "Vital Signs",
+      "lo": "1.5",
+      "question": "A patient's pulse is an indirect measurement of his or her:",
+      "options": ["Blood volume", "Blood viscosity", "Vasoconstriction", "Cardiac output"],
+      "correct": 3,
+      "explanation": "Each pulse you feel reflects a heartbeat pushing blood through the arteries, so pulse rate gives an indirect window into cardiac output — how much blood the heart is moving over time."
+    }
+  ]
+}

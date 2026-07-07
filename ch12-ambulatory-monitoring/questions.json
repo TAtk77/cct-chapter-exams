@@ -1,0 +1,348 @@
+{
+  "examTitle": "Chapter 12: Ambulatory Monitoring",
+  "chapterSource": "Ch12_Ambulatory_Monitoring.pdf",
+  "domains": [
+    "Types & Functions",
+    "Purpose & Uses",
+    "Patient Education",
+    "Application Procedure",
+    "Removal & Reporting"
+  ],
+  "questions": [
+    {
+      "id": "c12-01",
+      "domain": "Types & Functions",
+      "lo": "12.1",
+      "question": "What is the most common type of ambulatory monitor, named after its inventor?",
+      "options": ["Telemetry monitor", "Holter monitor", "Transtelephonic monitor", "Loop-memory monitor"],
+      "correct": 1,
+      "explanation": "The Holter monitor is named after inventor Norman Holter. The name is often applied loosely to any type of ambulatory monitor, even though it's technically one specific type."
+    },
+    {
+      "id": "c12-02",
+      "domain": "Types & Functions",
+      "lo": "12.1",
+      "question": "During continuous ambulatory monitoring, what does the patient do when a symptom occurs?",
+      "options": [
+        "Nothing — the tracing runs the same regardless of symptoms",
+        "Presses a button to place an event marker on the tracing",
+        "Calls the monitoring facility immediately",
+        "Removes the monitor and returns to the facility"
+      ],
+      "correct": 1,
+      "explanation": "Continuous monitoring records the whole time the unit is worn. The event marker timestamps the exact moment a symptom occurred so the physician can correlate it with the diary entry later."
+    },
+    {
+      "id": "c12-03",
+      "domain": "Types & Functions",
+      "lo": "12.1",
+      "question": "How is intermittent recording different from continuous monitoring?",
+      "options": [
+        "It only records while the patient is experiencing symptoms",
+        "It records for exactly 30 days regardless of symptoms",
+        "It requires five leads instead of three",
+        "It cannot be used with a patient diary"
+      ],
+      "correct": 0,
+      "explanation": "Intermittent recording is shorter and faster to evaluate, but it only captures activity during symptoms — abnormal rhythms that happen just before symptoms start can be missed."
+    },
+    {
+      "id": "c12-04",
+      "domain": "Types & Functions",
+      "lo": "12.3",
+      "question": "What is the key difference between telemetry monitoring and transtelephonic monitoring?",
+      "options": [
+        "Telemetry always requires a diary; transtelephonic never does",
+        "Telemetry is real-time monitoring, typically within a healthcare facility; transtelephonic transmits over a phone line, cell tower, or wifi and is often used for long-term outpatient monitoring",
+        "Telemetry uses ten leads; transtelephonic uses three",
+        "There is no meaningful difference between the two"
+      ],
+      "correct": 1,
+      "explanation": "Telemetry sends a continuous signal to a monitoring station in real time, usually inside a facility, so no diary is needed since staff are watching directly. Transtelephonic monitors are portable and can transmit remotely for 30+ days."
+    },
+    {
+      "id": "c12-05",
+      "domain": "Types & Functions",
+      "lo": "12.3",
+      "question": "A postsymptom event monitor is worn like a wristwatch or handheld device. What does it primarily record?",
+      "options": [
+        "A continuous 12-lead tracing for 48 hours",
+        "Heart activity for short periods immediately after the patient experiences symptoms",
+        "Only pacemaker battery status",
+        "Blood pressure alongside ECG data"
+      ],
+      "correct": 1,
+      "explanation": "It's used mainly to document dysrhythmias lasting more than a few seconds, like atrial fibrillation, atrial flutter, and supraventricular tachycardias, by capturing the activity right after symptoms hit."
+    },
+    {
+      "id": "c12-06",
+      "domain": "Types & Functions",
+      "lo": "12.3",
+      "question": "A loop-memory monitor can hold up to how many minutes of ECG tracing in memory?",
+      "options": ["1 minute", "5 minutes", "15 minutes", "60 minutes"],
+      "correct": 1,
+      "explanation": "The 5-minute memory window means activating the monitor after an episode locks in the tracing from before, during, and after the event — useful for pinpointing the cause of syncope."
+    },
+    {
+      "id": "c12-07",
+      "domain": "Purpose & Uses",
+      "lo": "12.2",
+      "question": "Why might a patient need ambulatory monitoring even after already having a normal 12-lead ECG?",
+      "options": [
+        "The 12-lead ECG is never accurate for cardiac patients",
+        "Ambulatory monitoring evaluates the heart over an extended period, so it can catch abnormal rhythms that a one-time ECG might miss if the patient wasn't symptomatic at that moment",
+        "Ambulatory monitoring replaces the need for a stress ECG entirely",
+        "Insurance requires both tests for every patient"
+      ],
+      "correct": 1,
+      "explanation": "A 12-lead ECG captures a single point in time. If the patient's symptoms are intermittent, they may not show up during that brief test — ambulatory monitoring extends the window to 24-48 hours or longer."
+    },
+    {
+      "id": "c12-08",
+      "domain": "Purpose & Uses",
+      "lo": "12.3",
+      "question": "Besides diagnosing dysrhythmias, what are two other common uses of ambulatory monitoring mentioned in the chapter?",
+      "options": [
+        "Measuring blood glucose and evaluating kidney function",
+        "Evaluating the effectiveness of antidysrhythmic medications and checking artificial pacemaker function",
+        "Screening for lung disease and measuring oxygen saturation",
+        "Diagnosing broken bones and soft tissue injuries"
+      ],
+      "correct": 1,
+      "explanation": "Ambulatory monitoring can confirm whether antidysrhythmic drug therapy is working, and it's also used to evaluate pacemaker function after implantation or if problems arise."
+    },
+    {
+      "id": "c12-09",
+      "domain": "Purpose & Uses",
+      "lo": "12.3",
+      "question": "Which patient would NOT be a good candidate for ambulatory monitoring, according to the chapter?",
+      "options": [
+        "A patient recovering from a myocardial infarction",
+        "A patient with dementia who cannot understand the process",
+        "A patient with an implanted pacemaker",
+        "A patient experiencing intermittent palpitations"
+      ],
+      "correct": 1,
+      "explanation": "The patient must be able to understand and cooperate with the monitoring process — for example, maintaining an accurate diary — which a patient with dementia may not reliably be able to do."
+    },
+    {
+      "id": "c12-10",
+      "domain": "Patient Education",
+      "lo": "12.4",
+      "question": "What should you tell a patient about bathing while wearing a Holter monitor?",
+      "options": [
+        "Showers and tub baths are fine as long as the unit is wrapped in plastic",
+        "Only a sponge bath is allowed — no shower or tub bath, since the equipment must not get wet",
+        "Bathing must be avoided entirely for the full monitoring period",
+        "Only tub baths are allowed, not showers"
+      ],
+      "correct": 1,
+      "explanation": "The recorder and electrodes must stay dry, so a sponge bath is the only option while the monitor is in place."
+    },
+    {
+      "id": "c12-11",
+      "domain": "Patient Education",
+      "lo": "12.4",
+      "question": "What should a patient avoid during ambulatory monitoring because it can interfere with the tracing?",
+      "options": [
+        "Reading and light exercise",
+        "Magnets, metal detectors, high-voltage areas, and electric blankets",
+        "Drinking water",
+        "Wearing loose-fitting clothing"
+      ],
+      "correct": 1,
+      "explanation": "These sources of electromagnetic interference can distort the ECG signal being recorded, so patients are instructed to steer clear of them for the duration of monitoring."
+    },
+    {
+      "id": "c12-12",
+      "domain": "Patient Education",
+      "lo": "12.4",
+      "question": "Why is a front-buttoning shirt recommended for patients during ambulatory monitoring?",
+      "options": [
+        "It looks more professional for the diary photo",
+        "It's loose-fitting for comfort and reduces artifact, and it gives easy access to the electrodes and lead wires",
+        "It keeps the monitor warmer",
+        "It's required by the monitor manufacturer"
+      ],
+      "correct": 1,
+      "explanation": "Loose-fitting clothing reduces artifact and discomfort, and a front-buttoning shirt makes it easy for staff to access the chest for lead placement and periodic checks."
+    },
+    {
+      "id": "c12-13",
+      "domain": "Patient Education",
+      "lo": "12.4",
+      "question": "A patient asks what to do if an electrode becomes loose during monitoring. What is the correct instruction?",
+      "options": [
+        "Ignore it — loose electrodes don't affect the results",
+        "Press the loose electrode back down in the center to reapply it; if it comes off completely, report it and return to the facility for replacement",
+        "Remove all electrodes and reapply them from scratch at home",
+        "Tape over all electrodes preemptively to prevent this"
+      ],
+      "correct": 1,
+      "explanation": "Minor looseness can be fixed by pressing the electrode center to reseat it. A fully detached electrode requires a trip back to the facility, since it can't be reliably reapplied without proper skin prep."
+    },
+    {
+      "id": "c12-14",
+      "domain": "Patient Education",
+      "lo": "12.4",
+      "question": "What should the patient record in the Holter diary?",
+      "options": [
+        "Only symptoms that seem serious",
+        "All usual and unusual activities and symptoms, including timing — routine and strenuous activity, medication, emotional upsets, and any physical sensations, whether or not they seem important",
+        "Only the start and end time of the monitoring period",
+        "Only meals and sleep times"
+      ],
+      "correct": 1,
+      "explanation": "The diary is only useful if it's complete. The chapter emphasizes: if in doubt, write it down — the physician needs to correlate the ECG tracing with what the patient was actually doing at each point."
+    },
+    {
+      "id": "c12-15",
+      "domain": "Patient Education",
+      "lo": "12.5",
+      "question": "How should you approach explaining the ambulatory monitoring procedure to a pediatric patient?",
+      "options": [
+        "Use the same technical language you'd use with an adult",
+        "Consider the child's age, use terms they can understand, let them touch the equipment beforehand to ease anxiety, and be sure to instruct the parent as well",
+        "Skip the explanation since children won't remember it anyway",
+        "Only speak to the parent and exclude the child from the conversation"
+      ],
+      "correct": 1,
+      "explanation": "Reducing a pediatric patient's fear starts with age-appropriate language and letting them handle the equipment first. The parent still needs full instructions since they'll be supporting the child through the monitoring period."
+    },
+    {
+      "id": "c12-16",
+      "domain": "Application Procedure",
+      "lo": "12.6",
+      "question": "Before placing electrodes on a hairy site, what is the correct skin prep step?",
+      "options": [
+        "Wet shave the area with soap and water",
+        "Dry shave the site, since wet shaving leaves a soap film that interferes with electrode adhesion",
+        "Skip shaving and place the electrode directly over the hair",
+        "Use only alcohol, never shave the site"
+      ],
+      "correct": 1,
+      "explanation": "Wet shaving leaves a soap film that keeps electrodes from adhering well, so dry shaving is used instead — followed by abrading the skin to improve contact."
+    },
+    {
+      "id": "c12-17",
+      "domain": "Application Procedure",
+      "lo": "12.6",
+      "question": "For telemetry monitoring specifically, why is clipping chest hair recommended over shaving?",
+      "options": [
+        "Clipping is faster, that's the only reason",
+        "Shaving increases irritation and scratching, which can cause artifact on the tracing",
+        "Clipping is required by all monitor manufacturers",
+        "Shaving is not allowed under any circumstances in a healthcare facility"
+      ],
+      "correct": 1,
+      "explanation": "For telemetry, clipping instead of shaving reduces skin irritation. An irritated, itchy site can lead to scratching that shows up as artifact on the ECG tracing."
+    },
+    {
+      "id": "c12-18",
+      "domain": "Application Procedure",
+      "lo": "12.6",
+      "question": "What is the purpose of a 'stress loop' when securing electrode lead wires?",
+      "options": [
+        "It helps the patient relax during the procedure",
+        "It takes up slack in the lead wire, preventing tension on the wire and electrode during patient movement",
+        "It's a decorative element with no functional purpose",
+        "It measures the patient's stress level"
+      ],
+      "correct": 1,
+      "explanation": "By leaving slack looped and taped down, the electrode isn't pulled or tugged when the patient moves, which helps prevent an inaccurate tracing caused by lead tension."
+    },
+    {
+      "id": "c12-19",
+      "domain": "Application Procedure",
+      "lo": "12.6",
+      "question": "Why should electrodes be snapped onto the lead wires before being placed on the patient?",
+      "options": [
+        "It's purely for organizational convenience, no patient benefit",
+        "It reduces pressure and discomfort on the patient's chest that would occur from attaching leads after the electrodes are already placed",
+        "It's required so the monitor can calibrate",
+        "It prevents the electrodes from expiring"
+      ],
+      "correct": 1,
+      "explanation": "Attaching the lead wire to the electrode first, then placing the assembled unit on the patient, avoids pressing on the patient's chest while fumbling to connect leads afterward."
+    },
+    {
+      "id": "c12-20",
+      "domain": "Application Procedure",
+      "lo": "12.6",
+      "question": "After placing all electrodes and attaching the cable, what should be done before letting the patient put their shirt back on?",
+      "options": [
+        "Immediately send the patient home",
+        "Run a baseline ECG tracing on the electrocardiograph to confirm the tracing is correct and the machine isn't malfunctioning",
+        "Remove the electrodes and start over",
+        "Skip straight to starting the digital recorder"
+      ],
+      "correct": 1,
+      "explanation": "Confirming a good baseline tracing before the patient dresses and leaves catches problems — like a bad electrode or faulty lead — while they're still easy to fix."
+    },
+    {
+      "id": "c12-21",
+      "domain": "Removal & Reporting",
+      "lo": "12.7",
+      "question": "What should you do first when a patient returns to have their ambulatory monitor removed?",
+      "options": [
+        "Immediately disconnect all lead wires",
+        "Briefly review the completed diary with the patient before removal",
+        "Send the digital disk to the lab before speaking with the patient",
+        "Ask the patient to fill out a new diary"
+      ],
+      "correct": 1,
+      "explanation": "Reviewing the diary with the patient first lets you catch gaps or unclear entries before the equipment comes off, while the patient can still clarify details."
+    },
+    {
+      "id": "c12-22",
+      "domain": "Removal & Reporting",
+      "lo": "12.7",
+      "question": "If a patient arrives for monitor removal without their diary, what is the impact?",
+      "options": [
+        "No impact — the ECG tracing alone is sufficient for interpretation",
+        "The results of the recording cannot be properly evaluated, since the physician needs to correlate the tracing with the patient's activities and symptoms",
+        "The monitor data is automatically deleted",
+        "The patient must repeat the entire test regardless of the diary"
+      ],
+      "correct": 1,
+      "explanation": "The ECG tracing alone isn't diagnostic — it has to be matched against what the patient was doing and feeling at each point in time, which is exactly what the diary provides."
+    },
+    {
+      "id": "c12-23",
+      "domain": "Removal & Reporting",
+      "lo": "12.7",
+      "question": "Once monitoring is complete and results are sent to an outside reference laboratory, how long does it typically take to get the report back?",
+      "options": ["Same day", "24-48 hours", "7 to 10 days", "30 days"],
+      "correct": 2,
+      "explanation": "The chapter notes it usually takes 7 to 10 days for a reference laboratory to return results, which then get placed in the patient's chart for the physician to share with the patient."
+    },
+    {
+      "id": "c12-24",
+      "domain": "Removal & Reporting",
+      "lo": "12.7",
+      "question": "Which of the following is NOT listed as a possible abnormal result from ambulatory monitoring?",
+      "options": [
+        "Electrical-conduction defects in the heart's rate and rhythm-controlling system",
+        "Rhythm abnormalities",
+        "Premature atrial or ventricular contractions",
+        "Elevated white blood cell count"
+      ],
+      "correct": 3,
+      "explanation": "White blood cell count is a blood test finding, not something an ECG-based ambulatory monitor detects. The monitor is focused on the heart's electrical rhythm."
+    },
+    {
+      "id": "c12-25",
+      "domain": "Removal & Reporting",
+      "lo": "12.6",
+      "question": "During the application procedure checklist, in what order should these two steps happen: (A) insert the digital disk and batteries into the recorder, (B) place electrodes on the patient's chest?",
+      "options": [
+        "A before B — prepare the recorder before touching the patient",
+        "B before A — electrodes go on first, equipment prep happens after",
+        "Order doesn't matter",
+        "They must happen at the exact same time"
+      ],
+      "correct": 1,
+      "explanation": "Per the procedure checklist, electrode placement and running a baseline tracing come first; preparing the recorder with a fresh digital disk and batteries happens afterward, right before starting the recording."
+    }
+  ]
+}

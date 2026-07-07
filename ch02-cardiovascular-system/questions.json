@@ -1,0 +1,485 @@
+{
+  "examTitle": "Chapter 2: The Cardiovascular System",
+  "chapterSource": "Ch2_Cardiovascular_System.pdf",
+  "domains": [
+    "Heart Anatomy: Chambers, Valves & Vessels",
+    "Circulation Pathways",
+    "Cardiac Cycle",
+    "Conduction System & Electrical Properties",
+    "ECG Waveforms & Intervals"
+  ],
+  "questions": [
+    {
+      "id": "c2-01",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the left ventricle?",
+      "options": [
+        "Heart chamber that pumps blood to the body, known as the workhorse of the heart",
+        "Chamber of the heart that pumps blood to the lungs",
+        "Chamber of the heart that receives blood from the body",
+        "Heart chamber that receives blood from the lungs"
+      ],
+      "correct": 0,
+      "explanation": "The left ventricle has the thickest muscular wall of all four chambers because it has to generate enough force to push blood through the entire systemic circulation — hence 'the workhorse of the heart.'"
+    },
+    {
+      "id": "c2-02",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the tricuspid valve?",
+      "options": [
+        "Type of valve located in the aorta and pulmonary artery",
+        "Atrioventricular valve between the left atrium and left ventricle",
+        "Valve located between the right atrium and right ventricle",
+        "Artery that transports blood to the entire body"
+      ],
+      "correct": 2,
+      "explanation": "The tricuspid valve sits on the right side of the heart, between the right atrium and right ventricle. Its counterpart on the left side is the mitral (bicuspid) valve."
+    },
+    {
+      "id": "c2-03",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the left atrium?",
+      "options": [
+        "Heart chamber that receives blood from the lungs",
+        "Chamber of the heart that receives blood from the body",
+        "Heart chamber that pumps blood to the body",
+        "Chamber of the heart that pumps blood to the lungs"
+      ],
+      "correct": 0,
+      "explanation": "The left atrium is the receiving chamber for freshly oxygenated blood coming from the lungs via the pulmonary veins, before passing it to the left ventricle."
+    },
+    {
+      "id": "c2-04",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the aorta?",
+      "options": [
+        "Artery that transports blood to the entire body",
+        "Blood vessel that provides a pathway for deoxygenated blood to return to the lungs",
+        "Blood vessel that transports blood from the lungs to the left atrium",
+        "Type of valve located in the aorta and pulmonary artery"
+      ],
+      "correct": 0,
+      "explanation": "The aorta is the body's largest artery — it carries freshly oxygenated blood from the left ventricle out to systemic circulation, reaching every part of the body."
+    },
+    {
+      "id": "c2-05",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the pulmonary trunk?",
+      "options": [
+        "Artery that transports blood to the entire body",
+        "Blood vessel that provides a pathway for deoxygenated blood to return to the lungs",
+        "Blood vessel that transports blood from the lungs to the left atrium",
+        "Chamber of the heart that pumps blood to the lungs"
+      ],
+      "correct": 1,
+      "explanation": "The pulmonary trunk carries deoxygenated blood away from the right ventricle toward the lungs, where it will pick up oxygen — the opposite direction and oxygen content of the aorta."
+    },
+    {
+      "id": "c2-06",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the right atrium?",
+      "options": [
+        "Chamber of the heart that pumps blood to the lungs",
+        "Heart chamber that receives blood from the lungs",
+        "Chamber of the heart that receives blood from the body",
+        "Heart chamber that pumps blood to the body"
+      ],
+      "correct": 2,
+      "explanation": "The right atrium is the entry point for deoxygenated blood returning from the body via the superior and inferior vena cava, before it moves on to the right ventricle."
+    },
+    {
+      "id": "c2-07",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the right ventricle?",
+      "options": [
+        "Heart chamber that pumps blood to the body",
+        "Chamber of the heart that pumps blood to the lungs",
+        "Chamber of the heart that receives blood from the body",
+        "Heart chamber that receives blood from the lungs"
+      ],
+      "correct": 1,
+      "explanation": "The right ventricle pumps deoxygenated blood into the pulmonary trunk toward the lungs — a much shorter, lower-pressure circuit than the left ventricle's job of pumping to the entire body."
+    },
+    {
+      "id": "c2-08",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is a semilunar valve?",
+      "options": [
+        "Atrioventricular valve between the left atrium and left ventricle",
+        "Valve located between the right atrium and right ventricle",
+        "Type of valve located in the aorta and the pulmonary artery",
+        "Artery that transports blood to the entire body"
+      ],
+      "correct": 2,
+      "explanation": "Semilunar valves sit at the exits of the ventricles — the aortic valve and pulmonic valve — preventing backflow into the ventricles after each contraction."
+    },
+    {
+      "id": "c2-09",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the pulmonary vein?",
+      "options": [
+        "Blood vessel that provides a pathway for deoxygenated blood to return to the lungs",
+        "Blood vessel that transports blood from the lungs to the left atrium",
+        "Artery that transports blood to the entire body",
+        "Heart chamber that pumps blood to the lungs"
+      ],
+      "correct": 1,
+      "explanation": "The pulmonary vein carries freshly oxygenated blood from the lungs back to the left atrium — notably, it's a vein carrying oxygenated blood, which is the reverse of how most veins work."
+    },
+    {
+      "id": "c2-10",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is the mitral (bicuspid) valve?",
+      "options": [
+        "Valve located between the right atrium and right ventricle",
+        "Type of valve located in the aorta and pulmonary artery",
+        "Blood vessel that transports blood from the lungs to the left atrium",
+        "Atrioventricular valve between the left atrium and left ventricle"
+      ],
+      "correct": 3,
+      "explanation": "The mitral valve is the left-side counterpart to the tricuspid valve — it sits between the left atrium and left ventricle, controlling blood flow into the heart's most powerful chamber."
+    },
+    {
+      "id": "c2-11",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is excitability, as a property of heart cells?",
+      "options": [
+        "Ability of the heart muscle cells to respond to an impulse or stimulus",
+        "Ability of the heart to initiate an electrical impulse",
+        "Ability of the heart muscle cells to shorten in response to an electrical stimulus",
+        "Ability of the heart cells to receive and transmit an electrical impulse"
+      ],
+      "correct": 0,
+      "explanation": "Excitability is the cell's capacity to respond at all when stimulated. It's distinct from contractility (actually shortening/contracting) and conductivity (passing the signal along)."
+    },
+    {
+      "id": "c2-12",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is automaticity?",
+      "options": [
+        "Ability of the heart to initiate an electrical impulse on its own",
+        "Ability of the heart cells to receive and transmit an electrical impulse",
+        "Branches off the bundle of His that conduct impulses to the ventricles",
+        "Heart muscle cells returning to their resting electrical state"
+      ],
+      "correct": 0,
+      "explanation": "Automaticity is what allows the heart to generate its own electrical impulses without needing a signal from the nervous system — it's why a heart can keep beating even outside the body."
+    },
+    {
+      "id": "c2-13",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What are bundle branches?",
+      "options": [
+        "Delays the electrical conduction through the heart",
+        "Branches off the bundle of His that conduct impulses to the left and right ventricles",
+        "Ability of the heart to initiate an electrical impulse",
+        "Distributes electrical impulses from cell to cell throughout the ventricles"
+      ],
+      "correct": 1,
+      "explanation": "The bundle branches (left and right) split off from the bundle of His and carry the electrical signal down into each ventricle, feeding into the Purkinje fibers from there."
+    },
+    {
+      "id": "c2-14",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is the SA node?",
+      "options": [
+        "Delays the electrical conduction through the heart",
+        "Distributes electrical impulses from cell to cell throughout the ventricles",
+        "Initiates the heartbeat",
+        "Heart muscle cells return to their resting electrical state"
+      ],
+      "correct": 2,
+      "explanation": "The SA (sinoatrial) node is the heart's natural pacemaker — it's where each normal heartbeat originates before the signal spreads through the rest of the conduction system."
+    },
+    {
+      "id": "c2-15",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is contractility?",
+      "options": [
+        "Ability of the heart muscle cells to respond to an impulse or stimulus",
+        "Ability of the heart muscle cells to shorten in response to an electrical stimulus",
+        "Ability of the heart cells to receive and transmit an electrical impulse",
+        "An electrical current that initiates the contraction of the heart muscle"
+      ],
+      "correct": 1,
+      "explanation": "Contractility is the actual mechanical shortening of the muscle fibers once stimulated — this is the property that turns an electrical signal into an actual pump action."
+    },
+    {
+      "id": "c2-16",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is depolarization?",
+      "options": [
+        "Heart muscle cells return to their resting electrical state",
+        "Delays the electrical conduction through the heart",
+        "An electrical current that initiates the contraction of the heart muscle",
+        "Ability of the heart to initiate an electrical impulse"
+      ],
+      "correct": 2,
+      "explanation": "Depolarization is the electrical trigger that sets off muscle contraction. It's the flip side of repolarization, where the cells reset back to their resting state afterward."
+    },
+    {
+      "id": "c2-17",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is the AV node?",
+      "options": [
+        "Delays the electrical conduction through the heart",
+        "Initiates the heartbeat",
+        "Distributes electrical impulses from cell to cell throughout the ventricles",
+        "Ability of the heart muscle cells to shorten in response to a stimulus"
+      ],
+      "correct": 0,
+      "explanation": "The AV (atrioventricular) node briefly delays the signal coming from the SA node, giving the atria time to finish contracting and fill the ventricles before ventricular contraction begins."
+    },
+    {
+      "id": "c2-18",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What are Purkinje fibers?",
+      "options": [
+        "Delays the electrical conduction through the heart",
+        "Branches off the bundle of His that conduct impulses to the ventricles",
+        "Distribute electrical impulses from cell to cell throughout the ventricles",
+        "Ability of the heart to initiate an electrical impulse"
+      ],
+      "correct": 2,
+      "explanation": "Purkinje fibers are the final stage of the conduction pathway — a network that spreads the electrical impulse rapidly across the ventricle walls so the whole chamber contracts together."
+    },
+    {
+      "id": "c2-19",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is repolarization?",
+      "options": [
+        "An electrical current that initiates the contraction of the heart muscle",
+        "Heart muscle cells return to their resting electrical state and the heart muscle relaxes",
+        "Ability of the heart to initiate an electrical impulse",
+        "Ability of the heart muscle cells to shorten in response to a stimulus"
+      ],
+      "correct": 1,
+      "explanation": "Repolarization is the recovery phase — cells reset their electrical charge back to baseline so they're ready to be stimulated again for the next beat."
+    },
+    {
+      "id": "c2-20",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "What is conductivity, as a property of heart cells?",
+      "options": [
+        "Ability of the heart muscle cells to respond to an impulse or stimulus",
+        "Ability of the heart to initiate an electrical impulse",
+        "Heart muscle cells return to their resting electrical state",
+        "Ability of the heart cells to receive and transmit an electrical impulse"
+      ],
+      "correct": 3,
+      "explanation": "Conductivity is what lets the electrical signal actually travel from cell to cell throughout the heart — without it, the impulse generated at the SA node would go nowhere."
+    },
+    {
+      "id": "c2-21",
+      "domain": "ECG Waveforms & Intervals",
+      "lo": "2.6",
+      "question": "The PR interval is usually:",
+      "options": ["0.06 to 0.10 second", "0.12 to 0.20 second", "greater than 0.20 second", "less than 0.06 second"],
+      "correct": 1,
+      "explanation": "A normal PR interval falls between 0.12 and 0.20 seconds. Anything consistently longer than 0.20 seconds points toward a first-degree AV block."
+    },
+    {
+      "id": "c2-22",
+      "domain": "ECG Waveforms & Intervals",
+      "lo": "2.6",
+      "question": "What part of the ECG tracing represents the repolarization of the Purkinje fibers?",
+      "options": ["T wave", "PR interval", "U wave", "P wave"],
+      "correct": 2,
+      "explanation": "The U wave, when visible, is thought to represent repolarization of the Purkinje fibers — it's a small, sometimes-absent wave that follows the T wave."
+    },
+    {
+      "id": "c2-23",
+      "domain": "ECG Waveforms & Intervals",
+      "lo": "2.6",
+      "question": "What part of the ECG tracing represents the time from the start of atrial activity to the start of ventricular activity?",
+      "options": ["QRS complex", "J point", "QT interval", "PR interval"],
+      "correct": 3,
+      "explanation": "The PR interval spans from the very start of the P wave (atrial depolarization) to the start of the QRS complex (ventricular depolarization) — capturing that atria-to-ventricle handoff."
+    },
+    {
+      "id": "c2-24",
+      "domain": "ECG Waveforms & Intervals",
+      "lo": "2.6",
+      "question": "What part of the ECG tracing is measured from the end of the S wave to the beginning of the T wave, and is normally on the isoelectric line?",
+      "options": ["ST segment", "QT segment", "U wave", "QRS complex"],
+      "correct": 0,
+      "explanation": "The ST segment sits between ventricular depolarization (the QRS complex) and repolarization (the T wave). Elevation or depression of this segment is a key marker physicians watch for in cardiac events."
+    },
+    {
+      "id": "c2-25",
+      "domain": "ECG Waveforms & Intervals",
+      "lo": "2.6",
+      "question": "What wave on the ECG tracing is not always seen, and when seen can sometimes indicate an electrolyte imbalance?",
+      "options": ["U wave", "P wave", "Q wave", "R wave"],
+      "correct": 0,
+      "explanation": "The U wave is inconsistent — it isn't always present, but when it becomes prominent it can be a clue toward things like low potassium (hypokalemia)."
+    },
+    {
+      "id": "c2-26",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "The heart's ability to create its own electrical impulse is known as:",
+      "options": ["Conductivity", "Contractility", "Automaticity", "Excitability"],
+      "correct": 2,
+      "explanation": "Automaticity is specifically about self-generating an impulse without outside stimulation — it's what makes cardiac tissue unique compared to most other muscle in the body."
+    },
+    {
+      "id": "c2-27",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "When stimulated, the sympathetic system of the body causes the heart rate to:",
+      "options": ["increase", "decrease", "remain the same", "increase, then decrease"],
+      "correct": 0,
+      "explanation": "The sympathetic nervous system is the body's 'fight or flight' response — activating it speeds up the heart rate. The parasympathetic system (via the vagus nerve) does the opposite, slowing it down."
+    },
+    {
+      "id": "c2-28",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "Which vessel of the body contains the highest concentration of oxygen?",
+      "options": ["Aorta", "Pulmonary artery", "Superior vena cava", "Inferior vena cava"],
+      "correct": 0,
+      "explanation": "The aorta carries freshly oxygenated blood straight from the left ventricle out to the body. The vena cava vessels and the pulmonary artery all carry deoxygenated blood, on their way back to or toward the lungs."
+    },
+    {
+      "id": "c2-29",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "The heart is contained inside a sac also known as the:",
+      "options": ["endocardium", "pericardial sac", "myocardium sac", "fluid sac"],
+      "correct": 1,
+      "explanation": "The pericardial sac (pericardium) is the protective double-layered membrane surrounding the heart. The endocardium and myocardium are internal layers of the heart wall itself, not the outer sac."
+    },
+    {
+      "id": "c2-30",
+      "domain": "Conduction System & Electrical Properties",
+      "lo": "2.5",
+      "question": "Which of the following would most likely decrease the heart rate?",
+      "options": ["Stress, exercise, and fever", "High concentration of potassium in the blood", "Decreased blood pressure", "Increased blood pressure"],
+      "correct": 3,
+      "explanation": "Increased blood pressure triggers baroreceptors that signal the body to slow the heart rate back down. Stress, exercise, fever, and decreased blood pressure all tend to push heart rate up instead."
+    },
+    {
+      "id": "c2-31",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is deoxygenated blood?",
+      "options": ["Blood having oxygen", "Blood that has little or no oxygen", "Circulation of blood through the heart muscle", "Circulation between the heart and the entire body"],
+      "correct": 1,
+      "explanation": "Deoxygenated blood is what returns to the right side of the heart from the body, having already given up its oxygen to the tissues — it's then sent to the lungs to be replenished."
+    },
+    {
+      "id": "c2-32",
+      "domain": "Cardiac Cycle",
+      "lo": "2.4",
+      "question": "What is the cardiac cycle?",
+      "options": [
+        "The period from the beginning of one beat of the heart to the beginning of the next",
+        "Contraction phase of the cardiac cycle, when the heart is pumping blood out to the body",
+        "Phase of the cardiac cycle when the heart is expanding and refilling",
+        "Circulation of blood through the heart and heart muscle"
+      ],
+      "correct": 0,
+      "explanation": "The cardiac cycle is the full sequence — one complete round of systole (contraction) and diastole (relaxation/refilling) — measured from one heartbeat's start to the next."
+    },
+    {
+      "id": "c2-33",
+      "domain": "Cardiac Cycle",
+      "lo": "2.4",
+      "question": "What is systole?",
+      "options": [
+        "Phase of the cardiac cycle when the heart is expanding and refilling; also known as the relaxation phase",
+        "Contraction phase of the cardiac cycle, when the heart is pumping blood out to the body",
+        "The period from the beginning of one beat of the heart to the beginning of the next",
+        "Transportation of blood between the heart and lungs"
+      ],
+      "correct": 1,
+      "explanation": "Systole is the contraction phase — the moment the ventricles squeeze and eject blood out into the aorta and pulmonary trunk. Diastole, its counterpart, is the relaxation and refilling phase."
+    },
+    {
+      "id": "c2-34",
+      "domain": "Circulation Pathways",
+      "lo": "2.3",
+      "question": "What is coronary circulation?",
+      "options": [
+        "Circulation of blood through the heart and heart muscle",
+        "Circulation between the heart and the entire body, excluding the lungs",
+        "Transportation of blood between the heart and lungs",
+        "Blood that has little or no oxygen"
+      ],
+      "correct": 0,
+      "explanation": "Coronary circulation refers specifically to the blood supply feeding the heart muscle itself, via the coronary arteries — distinct from systemic circulation, which supplies the rest of the body."
+    },
+    {
+      "id": "c2-35",
+      "domain": "Circulation Pathways",
+      "lo": "2.3",
+      "question": "What is systemic circulation?",
+      "options": [
+        "Transportation of blood between the heart and lungs",
+        "Circulation of blood through the heart and heart muscle",
+        "Circulation between the heart and the entire body, excluding the lungs",
+        "Blood having oxygen"
+      ],
+      "correct": 2,
+      "explanation": "Systemic circulation is the large loop that carries oxygenated blood out to every organ and tissue in the body (except the lungs) and returns deoxygenated blood back to the heart."
+    },
+    {
+      "id": "c2-36",
+      "domain": "Heart Anatomy: Chambers, Valves & Vessels",
+      "lo": "2.2",
+      "question": "What is oxygenated blood?",
+      "options": ["Blood that has little or no oxygen", "Blood having oxygen", "Circulation between the heart and lungs", "Contraction phase of the cardiac cycle"],
+      "correct": 1,
+      "explanation": "Oxygenated blood is blood that's picked up oxygen in the lungs and is ready to deliver it to the body's tissues — it's what fills the left side of the heart and the aorta."
+    },
+    {
+      "id": "c2-37",
+      "domain": "Cardiac Cycle",
+      "lo": "2.4",
+      "question": "What is diastole?",
+      "options": [
+        "Contraction phase of the cardiac cycle, when the heart is pumping blood out to the body",
+        "The period from the beginning of one beat of the heart to the beginning of the next",
+        "Phase of the cardiac cycle when the heart is expanding and refilling; also known as the relaxation phase",
+        "Circulation between the heart and the entire body"
+      ],
+      "correct": 2,
+      "explanation": "Diastole is the relaxation phase, when the heart chambers expand and refill with blood in preparation for the next contraction (systole)."
+    },
+    {
+      "id": "c2-38",
+      "domain": "Circulation Pathways",
+      "lo": "2.3",
+      "question": "What is pulmonary circulation?",
+      "options": [
+        "Circulation of blood through the heart and heart muscle",
+        "Circulation between the heart and the entire body, excluding the lungs",
+        "Blood having oxygen",
+        "Transportation of blood between the heart and lungs"
+      ],
+      "correct": 3,
+      "explanation": "Pulmonary circulation is the shorter loop that carries deoxygenated blood from the right ventricle to the lungs to pick up oxygen, then returns oxygenated blood to the left atrium."
+    }
+  ]
+}

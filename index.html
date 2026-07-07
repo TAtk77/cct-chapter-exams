@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCT Chapter Exams | Pivotal Health CCT Training</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --bg:        #0d1117;
+  --surface:   #161c26;
+  --card:      #1c2535;
+  --border:    #263045;
+  --accent:    #1e6fb5;
+  --accent2:   #2491d4;
+  --red:       #cb2c21;
+  --green:     #1e7e4a;
+  --green-lit: #27ae60;
+  --amber:     #b8860b;
+  --amber-lit: #d4a017;
+  --text:      #d0d9e8;
+  --muted:     #7a8fa8;
+  --label:     #5b8fbf;
+  --white:     #f0f4fa;
+}
+:root.light {
+  --bg:        #eef2f7;
+  --surface:   #dde5f0;
+  --card:      #f4f7fb;
+  --border:    #b8c8de;
+  --accent:    #1e6fb5;
+  --accent2:   #1a7abf;
+  --red:       #c0392b;
+  --green:     #1e7e4a;
+  --green-lit: #1a7a40;
+  --amber:     #8a6100;
+  --amber-lit: #a8790a;
+  --text:      #1a2535;
+  --muted:     #4a6480;
+  --label:     #83b9f0;
+  --white:     #0d1a2e;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  transition: background .25s, color .25s;
+}
+
+header {
+  background: linear-gradient(135deg, #0a1a2e 0%, #0f2a4a 60%, #12355e 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 28px 24px 24px;
+  position: relative;
+}
+:root.light header { background: linear-gradient(135deg, #1a3a5c, #1e5599, #1a6abf); }
+header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--red), var(--accent), var(--accent2));
+}
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-text { flex: 1; }
+.header-eyebrow {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 3px; text-transform: uppercase;
+  color: var(--label); margin-bottom: 4px;
+}
+header h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 36px; font-weight: 700;
+  color: #f0f4fa; line-height: 1.1;
+}
+header h1 span { color: var(--accent2); }
+.header-sub { font-size: 13.5px; color: #7a9ab8; margin-top: 6px; }
+
+#theme-toggle {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
+  color: #f0f4fa; width: 34px; height: 34px;
+  border-radius: 6px; cursor: pointer; font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .2s; flex-shrink: 0;
+}
+#theme-toggle:hover { background: rgba(255,255,255,.2); }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 70px;
+}
+
+.progress-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.progress-summary-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-summary-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 4px;
+}
+.progress-summary-text {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--label);
+  white-space: nowrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.chapter-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color .15s, transform .15s;
+  position: relative;
+}
+.chapter-card.live {
+  cursor: pointer;
+}
+.chapter-card.live:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.chapter-card.soon {
+  opacity: .55;
+  cursor: default;
+}
+
+.chapter-num {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--label);
+}
+
+.chapter-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.25;
+}
+
+.chapter-meta {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.status-chip {
+  align-self: flex-start;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.status-chip.live { background: rgba(39,174,96,.15); color: var(--green-lit); border: 1px solid var(--green); }
+.status-chip.soon { background: rgba(122,143,168,.12); color: var(--muted); border: 1px solid var(--border); }
+
+@media (max-width: 640px) {
+  header h1 { font-size: 28px; }
+  .grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 420px) {
+  .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-text">
+      <div class="header-eyebrow">Pivotal Health · CCT Training</div>
+      <h1>CCT Chapter <span>Exams</span></h1>
+      <div class="header-sub">Self-scoring practice exams, built from the CCT textbook chapter reviews</div>
+    </div>
+    <button id="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<main>
+  <div class="progress-summary">
+    <span class="progress-summary-text" id="progress-label">3 of 15 built</span>
+    <div class="progress-summary-bar"><div class="progress-summary-fill" style="width: 20%;"></div></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<script>
+const chapters = [
+  { num: 1, title: 'Electrocardiography', path: 'ch01-electrocardiography/', questions: 30, status: 'live' },
+  { num: 2, title: 'The Cardiovascular System', path: 'ch02-cardiovascular-system/', questions: 38, status: 'live' },
+  { num: 3, title: 'The 12-Lead ECG', path: '', questions: null, status: 'soon' },
+  { num: 4, title: 'Basic Dysrhythmia Interpretation', path: '', questions: null, status: 'soon' },
+  { num: 5, title: 'Atrial Dysrhythmias', path: '', questions: null, status: 'soon' },
+  { num: 6, title: 'Junctional Dysrhythmias', path: '', questions: null, status: 'soon' },
+  { num: 7, title: 'Ventricular Dysrhythmias', path: '', questions: null, status: 'soon' },
+  { num: 8, title: 'AV Blocks', path: '', questions: null, status: 'soon' },
+  { num: 9, title: 'Pacemakers', path: '', questions: null, status: 'soon' },
+  { num: 10, title: 'Stress Testing', path: '', questions: null, status: 'soon' },
+  { num: 11, title: 'Performing an ECG', path: '', questions: null, status: 'soon' },
+  { num: 12, title: 'Ambulatory Monitoring', path: 'ch12-ambulatory-monitoring/', questions: 25, status: 'live' },
+  { num: 13, title: 'Special Considerations', path: '', questions: null, status: 'soon' },
+  { num: 14, title: 'Cardiovascular Pharmacology', path: '', questions: null, status: 'soon' },
+];
+
+const grid = document.getElementById('grid');
+let liveCount = 0;
+
+chapters.forEach(ch => {
+  const isLive = ch.status === 'live';
+  if (isLive) liveCount++;
+
+  const el = document.createElement(isLive ? 'a' : 'div');
+  el.className = `chapter-card ${isLive ? 'live' : 'soon'}`;
+  if (isLive) el.href = ch.path;
+
+  el.innerHTML = `
+    <span class="status-chip ${isLive ? 'live' : 'soon'}">${isLive ? '● Live' : 'Coming Soon'}</span>
+    <div class="chapter-num">Chapter ${ch.num}</div>
+    <div class="chapter-title">${ch.title}</div>
+    ${isLive ? `<div class="chapter-meta">${ch.questions} questions · Self-Scoring</div>` : `<div class="chapter-meta">Not yet built</div>`}
+  `;
+  grid.appendChild(el);
+});
+
+document.getElementById('progress-label').textContent = `${liveCount} of ${chapters.length} built`;
+document.querySelector('.progress-summary-fill').style.width = `${Math.round((liveCount / chapters.length) * 100)}%`;
+
+function applyTheme(t) {
+  document.documentElement.classList.toggle('light', t === 'light');
+  document.getElementById('theme-toggle').textContent = t === 'light' ? '☀️' : '🌙';
+}
+function toggleTheme() {
+  const next = document.documentElement.classList.contains('light') ? 'dark' : 'light';
+  applyTheme(next);
+  try { localStorage.setItem('cct_theme', next); } catch(e) {}
+}
+try { applyTheme(localStorage.getItem('cct_theme') === 'light' ? 'light' : 'dark'); }
+catch(e) { applyTheme('dark'); }
+</script>
+</body>
+</html>
