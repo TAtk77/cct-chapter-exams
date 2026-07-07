@@ -1,0 +1,643 @@
+{
+  "examTitle": "Chapter 4: Performing an ECG",
+  "chapterSource": "Ch4_Performing_an_ECG.pdf",
+  "domains": [
+    "Landmarks & Chest Anatomy",
+    "Lead Placement",
+    "Patient Communication & Safety",
+    "Artifact & Troubleshooting",
+    "Special Circumstances & Procedure Prep"
+  ],
+  "questions": [
+    {
+      "id": "c4-01",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the suprasternal notch?",
+      "options": [
+        "Extends from the sternum to the scapula",
+        "The space between the fifth and sixth ribs",
+        "The top of the sternum",
+        "The dip at the base of the neck just above where the clavicle attaches to the sternum"
+      ],
+      "correct": 3,
+      "explanation": "The suprasternal notch is that easy-to-feel dip at the base of the throat, right where the clavicles meet the top of the sternum — a common starting landmark for locating other chest structures."
+    },
+    {
+      "id": "c4-02",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the fifth intercostal space?",
+      "options": [
+        "The top of the sternum",
+        "The space between the fifth and sixth ribs",
+        "Extends from the sternum to the scapula",
+        "The dip at the base of the neck"
+      ],
+      "correct": 1,
+      "explanation": "An intercostal space (ICS) is simply the gap between two ribs, numbered by the rib above it — so the 'fifth' ICS sits between ribs 5 and 6, and is where several of the precordial leads are placed."
+    },
+    {
+      "id": "c4-03",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the manubrium?",
+      "options": [
+        "The dip at the base of the neck",
+        "The space between the fifth and sixth ribs",
+        "The top of the sternum",
+        "Extends from the sternum to the scapula"
+      ],
+      "correct": 2,
+      "explanation": "The manubrium is the uppermost section of the sternum, just below the suprasternal notch — it's where the angle of Louis marks the boundary with the body of the sternum below it."
+    },
+    {
+      "id": "c4-04",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the right clavicle?",
+      "options": [
+        "Extends from the sternum to the scapula",
+        "The top of the sternum",
+        "The space between the fifth and sixth ribs",
+        "The dip at the base of the neck"
+      ],
+      "correct": 0,
+      "explanation": "The clavicle (collarbone) runs from the sternum out to the scapula (shoulder blade) — it's a key surface landmark for locating the midclavicular line used in lead placement."
+    },
+    {
+      "id": "c4-05",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V1 placed?",
+      "options": [
+        "Fifth intercostal space, at the anterior axillary line",
+        "Fourth intercostal space, left sternal border",
+        "Fifth intercostal space at the midaxillary line",
+        "Fourth intercostal space, right sternal border"
+      ],
+      "correct": 3,
+      "explanation": "V1 is placed at the fourth intercostal space, right sternal border — the first of the six precordial leads, positioned closest to the right side of the sternum."
+    },
+    {
+      "id": "c4-06",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V2 placed?",
+      "options": [
+        "Fourth intercostal space, right sternal border",
+        "Fourth intercostal space, left sternal border",
+        "Fifth intercostal space at the midaxillary line",
+        "Halfway between V2 and V4"
+      ],
+      "correct": 1,
+      "explanation": "V2 mirrors V1 on the opposite side — fourth intercostal space, but at the left sternal border instead of the right."
+    },
+    {
+      "id": "c4-07",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V3 placed?",
+      "options": [
+        "Fifth intercostal space at the midclavicular line",
+        "Fourth intercostal space, right sternal border",
+        "Fifth intercostal space, at the anterior axillary line",
+        "Halfway between V2 and V4"
+      ],
+      "correct": 3,
+      "explanation": "V3 doesn't have its own fixed landmark — it's placed at the midpoint between V2 and V4, bridging the gap between them on the chest wall."
+    },
+    {
+      "id": "c4-08",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V4 placed?",
+      "options": [
+        "Fourth intercostal space, left sternal border",
+        "Fifth intercostal space, at the anterior axillary line",
+        "Fifth intercostal space at the midaxillary line",
+        "Fifth intercostal space at the midclavicular line"
+      ],
+      "correct": 3,
+      "explanation": "V4 sits at the fifth intercostal space, midclavicular line — directly below the midpoint of the clavicle, and it serves as a key reference point for placing V3, V5, and V6."
+    },
+    {
+      "id": "c4-09",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V5 placed?",
+      "options": [
+        "Fifth intercostal space, at the anterior axillary line",
+        "Fourth intercostal space, right sternal border",
+        "Fifth intercostal space at the midaxillary line",
+        "Fourth intercostal space, left sternal border"
+      ],
+      "correct": 0,
+      "explanation": "V5 moves further around the chest wall from V4 — fifth intercostal space, but out at the anterior axillary line (the front edge of the armpit)."
+    },
+    {
+      "id": "c4-10",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "Where is lead V6 placed?",
+      "options": [
+        "Fourth intercostal space, left sternal border",
+        "Fifth intercostal space at the midaxillary line",
+        "Fifth intercostal space, at the anterior axillary line",
+        "Halfway between V2 and V4"
+      ],
+      "correct": 1,
+      "explanation": "V6, the last precordial lead, sits at the fifth intercostal space along the midaxillary line — directly in line with V4, just further around toward the side of the chest."
+    },
+    {
+      "id": "c4-11",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the midclavicular line?",
+      "options": ["Front of the axilla", "Middle of the axilla", "Usually passes through the nipple line"],
+      "correct": 2,
+      "explanation": "The midclavicular line runs vertically down from the center of the clavicle, and conveniently, it usually lines up with the nipple — a handy visual shortcut for locating lead V4."
+    },
+    {
+      "id": "c4-12",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the midaxillary line?",
+      "options": ["Front of the axilla", "Middle of the axilla", "Usually passes through the nipple line"],
+      "correct": 1,
+      "explanation": "The midaxillary line runs vertically down from the middle of the armpit (axillary region) — it's the reference line for placing V6."
+    },
+    {
+      "id": "c4-13",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the anterior axillary line?",
+      "options": ["Front of the axilla", "Middle of the axilla", "Usually passes through the nipple line"],
+      "correct": 0,
+      "explanation": "The anterior axillary line runs down from the front edge of the armpit — it's the reference line for placing V5, sitting between the midclavicular and midaxillary lines."
+    },
+    {
+      "id": "c4-14",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "For placement of the electrodes, how is the ICS located?",
+      "options": [
+        "Locating the sternum and feeling for a dip at the edge",
+        "Finding the ribs near the nipple line",
+        "Locating the clavicle and feeling for a dent directly below it",
+        "Locating the space between the clavicle and V4"
+      ],
+      "correct": 0,
+      "explanation": "The intercostal spaces are located by first finding the angle of Louis — the palpable ridge/dip where the manubrium meets the body of the sternum — then counting down rib by rib from there."
+    },
+    {
+      "id": "c4-15",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.2",
+      "question": "What would be the first and most appropriate thing to say if a patient refuses an ECG?",
+      "options": [
+        "\"Will you tell me why you don't wish to have an ECG done?\"",
+        "\"Don't worry; it takes only a few seconds.\"",
+        "\"Your doctor has ordered this test, and it must be done.\"",
+        "\"I will have to report your refusal to my supervisor.\""
+      ],
+      "correct": 0,
+      "explanation": "Understanding the patient's concern first respects their autonomy and often resolves the hesitation directly. Dismissing the concern, pulling rank with 'the doctor ordered it,' or leading with a threat all shut down communication rather than opening it."
+    },
+    {
+      "id": "c4-16",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "When applying chest leads, V4 is placed:",
+      "options": [
+        "midway between V3 and V5.",
+        "at the fourth ICS, right sternal border.",
+        "at the fifth ICS, left midclavicular line.",
+        "at the fourth ICS, left sternal border."
+      ],
+      "correct": 2,
+      "explanation": "V4's placement — fifth ICS, left midclavicular line — is the anchor point for the rest of the precordial leads; V3 and V5 are positioned relative to it."
+    },
+    {
+      "id": "c4-17",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "When applying chest leads, V2 is placed:",
+      "options": [
+        "midway between V3 and V5.",
+        "at the fourth ICS, right sternal border.",
+        "at the fifth ICS, left midclavicular line.",
+        "at the fourth ICS, left sternal border."
+      ],
+      "correct": 3,
+      "explanation": "V2 sits at the fourth ICS, left sternal border — right next to V1 but on the opposite side of the sternum."
+    },
+    {
+      "id": "c4-18",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.5",
+      "question": "To prevent disease transmission during an ECG, you should:",
+      "options": ["check the ground prong.", "wash your hands.", "raise the side rail.", "lower the bed."],
+      "correct": 1,
+      "explanation": "Hand hygiene remains the single most effective infection-control step, even during a routine, non-invasive procedure like an ECG."
+    },
+    {
+      "id": "c4-19",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.5",
+      "question": "Safety procedures specific to the ECG include which of the following?",
+      "options": [
+        "Wash hands; clean up all spills immediately.",
+        "Lower bed; raise the side rail.",
+        "Check the ground prong; give the patient the call signal.",
+        "Check the lead wires, insulation, and ground prong."
+      ],
+      "correct": 3,
+      "explanation": "Checking the equipment itself — lead wires, insulation, and the ground prong — is specific to ECG electrical safety, distinct from general facility safety practices like bed positioning or spill cleanup."
+    },
+    {
+      "id": "c4-20",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.1",
+      "question": "Which of the following would NOT be done prior to performing an ECG?",
+      "options": [
+        "Receive and validate the order.",
+        "Write ECG variations on tracing.",
+        "Check and change paper if necessary.",
+        "Enter patient data into the machine."
+      ],
+      "correct": 1,
+      "explanation": "Noting variations on the tracing happens during or after the recording, once you actually see what the tracing looks like — not as prep beforehand like validating the order, checking paper, or entering patient data."
+    },
+    {
+      "id": "c4-21",
+      "domain": "Lead Placement",
+      "lo": "4.4",
+      "question": "When applying chest leads, V1 is placed:",
+      "options": [
+        "midway between V3 and V5.",
+        "at the fourth ICS, right sternal border.",
+        "at the fifth ICS, left midclavicular line.",
+        "at the fourth ICS, left sternal border."
+      ],
+      "correct": 1,
+      "explanation": "V1 is placed at the fourth ICS, right sternal border — the starting point for the precordial lead sequence."
+    },
+    {
+      "id": "c4-22",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "Marks on the ECG tracing caused by another source of activity are:",
+      "options": ["asystole.", "conduction marks.", "artifact.", "arrhythmias."],
+      "correct": 2,
+      "explanation": "Artifact refers to any tracing marks caused by something other than the heart's own electrical activity — like muscle movement, loose electrodes, or electrical interference."
+    },
+    {
+      "id": "c4-23",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "Somatic tremors are caused by:",
+      "options": ["electrical current leak.", "tracing drifts away from the center.", "muscle movement.", "contact with another electrical device."],
+      "correct": 2,
+      "explanation": "Somatic tremor artifact comes from the patient's own muscle movement — whether voluntary (shifting, talking) or involuntary (shivering, tremor). It's addressed by having the patient stay still and get comfortable, sometimes tucking hands under the buttocks to reduce arm tremor."
+    },
+    {
+      "id": "c4-24",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "You noticed a wandering baseline on the ECG tracing. What measure(s) should you take to correct the problem?",
+      "options": ["Apply new electrodes.", "Reposition the electrodes.", "Ensure that the wires are not crossed.", "All of the answers are correct."],
+      "correct": 3,
+      "explanation": "Wandering baseline can come from several sources — poor electrode contact, incorrect placement, or crossed/tangled wires — so all of these corrective steps are reasonable things to check."
+    },
+    {
+      "id": "c4-25",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.6",
+      "question": "You notice that leads I and II have a lot of artifact while recording a 12-lead ECG. Which electrode is probably not placed appropriately?",
+      "options": ["Right arm", "Left arm", "Left leg", "None of the answers are correct"],
+      "correct": 0,
+      "explanation": "Lead I is calculated from right arm and left arm, and Lead II from right arm and left leg. The right arm electrode is the one common factor between both leads showing artifact, making it the most likely culprit."
+    },
+    {
+      "id": "c4-26",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.5",
+      "question": "Which of the following is NOT a specific type of isolation precaution implemented for hospitalized patients?",
+      "options": ["AIDS precautions", "Droplet precautions", "Airborne precautions", "Contact precautions"],
+      "correct": 0,
+      "explanation": "The actual categories of isolation precautions are airborne, droplet, and contact — each tailored to how a specific pathogen spreads. 'AIDS precautions' isn't one of the recognized categories; standard precautions already apply universally regardless of a patient's specific diagnosis."
+    },
+    {
+      "id": "c4-27",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "Which of the following are ways to correct AC interference?",
+      "options": [
+        "Unplug electrical equipment; move bed away from wall.",
+        "Apply electrodes securely; remove tension from lead wires.",
+        "Have patient place hands under his or her buttocks; remind patient not to move.",
+        "Replace loose electrodes; have the patient turn slightly to the side."
+      ],
+      "correct": 0,
+      "explanation": "AC interference comes from nearby electrical sources, so the fix is to reduce that electrical exposure — unplugging unnecessary equipment and moving the bed away from wall outlets and wiring."
+    },
+    {
+      "id": "c4-28",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "Which of the following are ways to correct somatic tremor?",
+      "options": [
+        "Unplug electrical equipment; move bed away from wall.",
+        "Apply electrodes securely; remove tension from lead wires.",
+        "Have patient place hands under his or her buttocks; remind patient not to move.",
+        "Replace loose electrodes; have the patient turn slightly to the side."
+      ],
+      "correct": 2,
+      "explanation": "Since somatic tremor comes from the patient's own movement, the fix targets that directly — helping them get still and comfortable, including tucking the hands under the buttocks to minimize arm muscle tension."
+    },
+    {
+      "id": "c4-29",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "Which of the following are ways to correct wandering baseline?",
+      "options": [
+        "Unplug electrical equipment; move bed away from wall.",
+        "Apply electrodes securely; remove tension from lead wires.",
+        "Have patient place hands under his or her buttocks; remind patient not to move.",
+        "Replace loose electrodes; have the patient turn slightly to the side."
+      ],
+      "correct": 1,
+      "explanation": "Wandering baseline usually traces back to electrode/lead wire issues, so the fix is making sure electrodes are firmly applied and the lead wires aren't pulling or creating tension."
+    },
+    {
+      "id": "c4-30",
+      "domain": "Lead Placement",
+      "lo": "4.3",
+      "question": "When applying chest leads, V6 is placed:",
+      "options": [
+        "in line with V4 on the midaxillary line.",
+        "at the fourth ICS, right sternal border.",
+        "at the fifth ICS, left midclavicular line.",
+        "at the fourth ICS, left sternal border."
+      ],
+      "correct": 0,
+      "explanation": "V6 stays at the same horizontal level as V4 (fifth ICS) but moves out to the midaxillary line — so it's easiest to think of as 'in line with V4, just further around the side.'"
+    },
+    {
+      "id": "c4-31",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.11",
+      "question": "If your patient has an amputated left lower leg, where should you place the electrodes?",
+      "options": [
+        "LL on left upper leg, RL on right lower leg",
+        "LL on left lower abdomen, RL on right lower abdomen",
+        "LL on left lower leg, RL on right upper leg",
+        "LL on left lower abdomen, RL on right lower leg"
+      ],
+      "correct": 1,
+      "explanation": "When a limb is missing, the standard approach is to move the electrode as close as possible to its original position while keeping both corresponding limb electrodes symmetric — here, both LL and RL move to the lower abdomen together, rather than mismatching one leg and one abdomen placement, which would distort the tracing."
+    },
+    {
+      "id": "c4-32",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.10",
+      "question": "When performing a 12-lead ECG on an infant or small child, do all of the following EXCEPT:",
+      "options": ["speak in children's terms.", "use smaller ECG electrodes.", "perform a V3R tracing.", "use a special ECG machine."],
+      "correct": 3,
+      "explanation": "Pediatric ECGs use the same standard machine — just with smaller electrodes, age-appropriate communication, and sometimes an added right-sided V3R view. A separate 'special' machine isn't required."
+    },
+    {
+      "id": "c4-33",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.6",
+      "question": "Approach the patient from the _____ when performing an ECG.",
+      "options": ["left side", "right side", "top", "bottom"],
+      "correct": 0,
+      "explanation": "Approaching from the patient's left side keeps you positioned conveniently near where most of the chest electrodes and lead wires will be placed, making the setup smoother for both of you."
+    },
+    {
+      "id": "c4-34",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "True or False: Natural skin oils, moisturizers, and perspiration can contribute to artifact on an ECG tracing.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. Anything on the skin that interferes with electrode adhesion or conductivity — oils, lotions, sweat — can cause a poor connection and show up as artifact on the tracing, which is why proper skin prep matters."
+    },
+    {
+      "id": "c4-35",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.11",
+      "question": "True or False: The letter R is placed after any tracing when the electrode is not in its usual position and has been placed on the right side of the patient's chest.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. Marking a lead with an 'R' (like V3R) documents that it was recorded from a right-sided position rather than the standard left-sided placement — important context for whoever interprets the tracing."
+    },
+    {
+      "id": "c4-36",
+      "domain": "Patient Communication & Safety",
+      "lo": "4.5",
+      "question": "True or False: Because an ECG is not an invasive procedure, it is not necessary to wear personal protective equipment (PPE) when performing this procedure under any circumstances.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "explanation": "False. While an ECG itself is non-invasive, PPE may still be necessary depending on the situation — for example, if the patient is on isolation precautions, or there's a possibility of contact with blood or body fluids. 'Under any circumstances' is too absolute a claim."
+    },
+    {
+      "id": "c4-37",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the intercostal space (ICS)?",
+      "options": [
+        "Outer edge of the sternum",
+        "The space between two ribs",
+        "An imaginary vertical line that runs through the center of the clavicle",
+        "A bony prominence located approximately 1 inch below the suprasternal notch"
+      ],
+      "correct": 1,
+      "explanation": "An intercostal space is literally the gap between two adjacent ribs — the key reference unit for locating precordial lead placement."
+    },
+    {
+      "id": "c4-38",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the midaxillary line?",
+      "options": [
+        "Outer edge of the sternum",
+        "An imaginary vertical line starting at the edge of the chest where the axillary region begins",
+        "An imaginary vertical line that starts in the middle of the axillary region (armpit)",
+        "An imaginary vertical line on the back that starts in the middle of the scapula"
+      ],
+      "correct": 2,
+      "explanation": "The midaxillary line runs vertically from the middle of the armpit — it's the reference used for placing V6."
+    },
+    {
+      "id": "c4-39",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.12",
+      "question": "What does 'stat' mean?",
+      "options": [
+        "An interruption of the electrical activity of the brain",
+        "Voluntary or involuntary muscle movement",
+        "Immediately",
+        "Condition in which the heart is on the reverse side of the chest"
+      ],
+      "correct": 2,
+      "explanation": "'Stat' is medical shorthand for 'immediately' — an order or request marked stat means it takes priority over routine tasks."
+    },
+    {
+      "id": "c4-40",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the anterior axillary line?",
+      "options": [
+        "An imaginary vertical line starting at the edge of the chest where the axillary region begins",
+        "An imaginary vertical line that starts in the middle of the axillary region",
+        "Outer edge of the sternum",
+        "An imaginary line on the chest that runs vertically through the center of the clavicle"
+      ],
+      "correct": 0,
+      "explanation": "The anterior axillary line begins at the front edge of the chest where the armpit region starts — it's the reference line for placing V5."
+    },
+    {
+      "id": "c4-41",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "What is artifact, in the context of an ECG tracing?",
+      "options": [
+        "An interruption of the electrical activity of the brain",
+        "Unwanted marks on the ECG caused by electrical activity from sources other than the heart",
+        "Drifting of an ECG tracing away from the center of the paper",
+        "Voluntary or involuntary muscle movement"
+      ],
+      "correct": 1,
+      "explanation": "Artifact is the general umbrella term for any unwanted marks on the tracing that come from something other than the heart's true electrical activity — muscle movement, AC interference, and loose electrodes are all specific causes of artifact."
+    },
+    {
+      "id": "c4-42",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.12",
+      "question": "What is a seizure?",
+      "options": [
+        "Immediately",
+        "An interruption of the electrical activity of the brain that causes involuntary muscle movement and sometimes unconsciousness",
+        "Condition in which the heart is on the reverse side of the chest",
+        "Voluntary or involuntary muscle movement; also known as body tremor"
+      ],
+      "correct": 1,
+      "explanation": "A seizure is a disruption in the brain's electrical activity, which can trigger involuntary muscle movement and, in some cases, loss of consciousness — an important emergency scenario to recognize during patient care."
+    },
+    {
+      "id": "c4-43",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the midclavicular line?",
+      "options": [
+        "Outer edge of the sternum",
+        "An imaginary vertical line on the back that starts in the middle of the scapula",
+        "An imaginary line on the chest that runs vertically through the center of the clavicle",
+        "A bony prominence located approximately 1 inch below the suprasternal notch"
+      ],
+      "correct": 2,
+      "explanation": "The midclavicular line runs down from the center of the clavicle and typically passes through the nipple line — it's the reference for placing V4."
+    },
+    {
+      "id": "c4-44",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "What is a somatic tremor?",
+      "options": [
+        "Unwanted markings on the ECG tracing caused by other electrical sources",
+        "Drifting of an ECG tracing away from the center of the paper",
+        "A bony prominence located approximately 1 inch below the suprasternal notch",
+        "Voluntary or involuntary muscle movement; also known as body tremor"
+      ],
+      "correct": 3,
+      "explanation": "Somatic tremor is simply body movement — voluntary (shifting, talking) or involuntary (shivering, tremor disorders) — that shows up as artifact on the ECG tracing."
+    },
+    {
+      "id": "c4-45",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the angle of Louis?",
+      "options": [
+        "Outer edge of the sternum",
+        "A bony prominence located approximately 1 inch below the suprasternal notch, where the manubrium and the body of the sternum are joined",
+        "An imaginary vertical line that starts in the middle of the axillary region",
+        "The space between two ribs"
+      ],
+      "correct": 1,
+      "explanation": "The angle of Louis is a key palpable landmark — the ridge where the manubrium meets the body of the sternum, used to count down to the correct intercostal spaces for lead placement."
+    },
+    {
+      "id": "c4-46",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "What is AC interference?",
+      "options": [
+        "Voluntary or involuntary muscle movement",
+        "Drifting of an ECG tracing away from the center of the paper",
+        "Unwanted markings on the ECG tracing caused by other electrical sources",
+        "An interruption of the electrical activity of the brain"
+      ],
+      "correct": 2,
+      "explanation": "AC interference is artifact caused by nearby electrical equipment or wiring, rather than the patient's own body — it's corrected by unplugging unnecessary devices and keeping the bed away from wall electrical sources."
+    },
+    {
+      "id": "c4-47",
+      "domain": "Artifact & Troubleshooting",
+      "lo": "4.7",
+      "question": "What is a wandering baseline?",
+      "options": [
+        "Voluntary or involuntary muscle movement",
+        "Unwanted markings on the ECG tracing caused by other electrical sources",
+        "Drifting of an ECG tracing away from the center of the paper; also called baseline shift",
+        "An interruption of the electrical activity of the brain"
+      ],
+      "correct": 2,
+      "explanation": "A wandering baseline is when the tracing drifts up or down away from the center of the paper — usually caused by loose electrodes, poor skin prep, or tension on the lead wires."
+    },
+    {
+      "id": "c4-48",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the sternal border?",
+      "options": [
+        "Outer edge of the sternum",
+        "The space between two ribs",
+        "An imaginary vertical line that starts in the middle of the axillary region",
+        "The top of the sternum"
+      ],
+      "correct": 0,
+      "explanation": "The sternal border is simply the outer edge of the sternum, used as a reference point for placing V1 and V2 on either side of it."
+    },
+    {
+      "id": "c4-49",
+      "domain": "Special Circumstances & Procedure Prep",
+      "lo": "4.11",
+      "question": "What is dextrocardia?",
+      "options": [
+        "Immediately",
+        "Voluntary or involuntary muscle movement",
+        "An interruption of the electrical activity of the brain",
+        "Condition in which the heart is on the reverse side of the chest"
+      ],
+      "correct": 3,
+      "explanation": "Dextrocardia is a rare condition where the heart is positioned on the right side of the chest rather than the left — it requires special consideration for lead placement to get an accurate tracing."
+    },
+    {
+      "id": "c4-50",
+      "domain": "Landmarks & Chest Anatomy",
+      "lo": "4.3",
+      "question": "What is the midscapular line?",
+      "options": [
+        "The top of the sternum",
+        "An imaginary vertical line on the back that starts in the middle of the scapula",
+        "An imaginary line on the chest that runs vertically through the center of the clavicle",
+        "The space between two ribs"
+      ],
+      "correct": 1,
+      "explanation": "The midscapular line is a posterior (back) landmark, running vertically from the middle of the scapula — used less often than the anterior lines, but part of the full set of reference lines for the chest and back."
+    }
+  ]
+}

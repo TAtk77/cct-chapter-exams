@@ -1,0 +1,475 @@
+{
+  "examTitle": "Chapter 3: The Electrocardiograph",
+  "chapterSource": "Ch3_The_Electrocardiograph.pdf",
+  "domains": [
+    "Lead Types & Placement",
+    "Signal Processing & Channels",
+    "Machine Controls & Interpretation",
+    "Electrodes",
+    "ECG Paper & Measurements"
+  ],
+  "questions": [
+    {
+      "id": "c3-01",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V1?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V1 through V6 are the precordial (chest) leads. They sit directly on the chest wall, unlike limb leads (on the arms/legs) or augmented leads (calculated from limb lead data)."
+    },
+    {
+      "id": "c3-02",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is aVR?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 1,
+      "explanation": "aVR, aVL, and aVF are the augmented leads — 'augmented' because the machine amplifies (augments) the signal from the limb electrodes to make these views visible on the tracing."
+    },
+    {
+      "id": "c3-03",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is lead I?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 0,
+      "explanation": "Leads I, II, and III are the standard limb leads, each formed by comparing two of the three limb electrodes (right arm, left arm, left leg) — together they form Einthoven's triangle."
+    },
+    {
+      "id": "c3-04",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is lead II?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 0,
+      "explanation": "Lead II compares the right arm and left leg electrodes. It's one of the three standard limb leads and is commonly used for continuous rhythm monitoring because it gives a clear view of the P wave."
+    },
+    {
+      "id": "c3-05",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is aVL?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 1,
+      "explanation": "aVL is one of the three augmented leads, giving a view of the heart's left lateral wall by amplifying the signal from the limb electrodes."
+    },
+    {
+      "id": "c3-06",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V3?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V3 is one of the six precordial leads, placed directly on the chest wall — specifically halfway between V2 and V4."
+    },
+    {
+      "id": "c3-07",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V4?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V4 is a precordial lead, placed at the fifth intercostal space at the midclavicular line."
+    },
+    {
+      "id": "c3-08",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V6?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V6 is the last of the six precordial leads, placed at the fifth intercostal space along the midaxillary line."
+    },
+    {
+      "id": "c3-09",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is aVF?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 1,
+      "explanation": "aVF is an augmented lead that gives a view of the heart's inferior wall, amplified from the limb electrode signals."
+    },
+    {
+      "id": "c3-10",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is lead III?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 0,
+      "explanation": "Lead III is the third of the standard limb leads, comparing the left arm and left leg electrodes."
+    },
+    {
+      "id": "c3-11",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V2?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V2 is a precordial lead, placed at the fourth intercostal space at the left sternal border."
+    },
+    {
+      "id": "c3-12",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What type of lead is V5?",
+      "options": ["Limb lead", "Augmented lead", "Precordial lead"],
+      "correct": 2,
+      "explanation": "V5 is a precordial lead, placed at the fifth intercostal space along the anterior axillary line."
+    },
+    {
+      "id": "c3-13",
+      "domain": "Signal Processing & Channels",
+      "lo": "3.2",
+      "question": "What does single-channel mean on an ECG machine?",
+      "options": [
+        "Records one lead tracing at a time",
+        "Ability to record more than one lead tracing at a time",
+        "Disposable sensors that detect the electrical activity of the heart",
+        "Displays the tracing for the electrical activity of the heart"
+      ],
+      "correct": 0,
+      "explanation": "A single-channel machine records and prints one lead at a time, in sequence — the opposite of a multichannel machine, which can capture several leads simultaneously."
+    },
+    {
+      "id": "c3-14",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What does the speed control do on an ECG machine?",
+      "options": [
+        "Changes the height (size) of the ECG tracing",
+        "Indicates voltage on the ECG tracing",
+        "Indicates time on the ECG tracing",
+        "Controls how fast the machine records during an ECG tracing"
+      ],
+      "correct": 3,
+      "explanation": "The speed control determines how quickly the paper moves during recording — the standard is 25 mm/sec, though it can be adjusted for specific diagnostic needs."
+    },
+    {
+      "id": "c3-15",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What is 'input,' in the context of an ECG machine?",
+      "options": [
+        "Data that are entered into an ECG machine",
+        "Disposable sensors that detect the electrical activity of the heart",
+        "Displays the tracing for the electrical activity of the heart",
+        "Amplifies the electrical impulse and converts it to mechanical action"
+      ],
+      "correct": 0,
+      "explanation": "Input refers to the patient data and electrical signal information fed into the machine — the first of the ECG machine's three basic functions, alongside signal processing and output display."
+    },
+    {
+      "id": "c3-16",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What does gain control on an ECG machine?",
+      "options": [
+        "Controls how fast the machine records",
+        "Changes the height (size) of the ECG tracing",
+        "Indicates voltage on the ECG tracing",
+        "Indicates time on the ECG tracing"
+      ],
+      "correct": 1,
+      "explanation": "Gain adjusts the amplitude (height) of the tracing. Standard gain shows 10 mm per 1 mV, but it can be adjusted up or down if the tracing is too small or too large to read clearly."
+    },
+    {
+      "id": "c3-17",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What is a 'lead,' in ECG terminology?",
+      "options": [
+        "Disposable sensors that detect the electrical activity of the heart",
+        "Data that are entered into an ECG machine",
+        "Conductor wire attached to the ECG machine",
+        "Displays the tracing for the electrical activity of the heart"
+      ],
+      "correct": 2,
+      "explanation": "A lead wire is the conductor connecting an electrode to the ECG machine — though 'lead' also refers to the resulting view/angle of the heart's electrical activity that wire helps produce."
+    },
+    {
+      "id": "c3-18",
+      "domain": "Signal Processing & Channels",
+      "lo": "3.2",
+      "question": "What does multichannel mean on an ECG machine?",
+      "options": [
+        "Records one lead tracing at a time",
+        "Ability to record more than one lead tracing at a time",
+        "Amplifies the electrical impulse and converts it to mechanical action",
+        "Controls how fast the machine records"
+      ],
+      "correct": 1,
+      "explanation": "Multichannel machines can capture three or more leads simultaneously, which is faster and more efficient than mounting and recording each lead one at a time."
+    },
+    {
+      "id": "c3-19",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "What does mV indicate on an ECG tracing?",
+      "options": ["Indicates time on the ECG tracing", "Indicates voltage on the ECG tracing", "Changes the height of the tracing", "Controls how fast the machine records"],
+      "correct": 1,
+      "explanation": "mV (millivolts) is the unit of voltage, read on the vertical axis of the ECG paper — the height of a waveform reflects how much electrical voltage was generated."
+    },
+    {
+      "id": "c3-20",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "What does mm indicate on an ECG tracing?",
+      "options": ["Indicates voltage on the ECG tracing", "Changes the height of the tracing", "Indicates time on the ECG tracing", "Controls how fast the machine records"],
+      "correct": 2,
+      "explanation": "mm (millimeters) on the horizontal axis of ECG paper represents time — at the standard paper speed, each small box equals a fixed, known duration."
+    },
+    {
+      "id": "c3-21",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What does signal processing do in an ECG machine?",
+      "options": [
+        "Data that are entered into an ECG machine",
+        "Displays the tracing for the electrical activity of the heart",
+        "Amplifies the electrical impulse and converts it to mechanical action",
+        "Disposable sensors that detect the electrical activity of the heart"
+      ],
+      "correct": 2,
+      "explanation": "Signal processing is the middle of the three basic ECG machine functions — it takes the raw electrical signal, amplifies it, and converts it into the mechanical motion that draws the tracing."
+    },
+    {
+      "id": "c3-22",
+      "domain": "Electrodes",
+      "lo": "3.4",
+      "question": "What is an electrode?",
+      "options": [
+        "Conductor wire attached to the ECG machine",
+        "Data that are entered into an ECG machine",
+        "Amplifies the electrical impulse and converts it to mechanical action",
+        "Disposable sensors that detect the electrical activity of the heart"
+      ],
+      "correct": 3,
+      "explanation": "Electrodes are the disposable sensors that stick to the patient's skin and pick up the heart's electrical activity, feeding that signal to the machine through the lead wires."
+    },
+    {
+      "id": "c3-23",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What is the output display?",
+      "options": [
+        "Data that are entered into an ECG machine",
+        "Amplifies the electrical impulse and converts it to mechanical action",
+        "Disposable sensors that detect the electrical activity of the heart",
+        "Displays the tracing for the electrical activity of the heart"
+      ],
+      "correct": 3,
+      "explanation": "The output display is the last of the three basic machine functions — where the processed signal finally becomes a visible tracing, whether on paper or a screen."
+    },
+    {
+      "id": "c3-24",
+      "domain": "Signal Processing & Channels",
+      "lo": "3.2",
+      "question": "ECG machines have three basic functions. They are:",
+      "options": [
+        "Input, signal processing, and output display",
+        "Input, standardization, and output display",
+        "Multichannel, single-channel, and signal processing",
+        "Standardization, input display, and output display"
+      ],
+      "correct": 0,
+      "explanation": "Every ECG machine, regardless of brand or model, performs the same three core functions in sequence: taking in the signal (input), amplifying/converting it (signal processing), and showing the result (output display)."
+    },
+    {
+      "id": "c3-25",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.2",
+      "question": "To perform an ECG with accuracy, the best source to obtain specific information about the machine is:",
+      "options": ["The policy and procedure manual", "The manufacturer's directions", "Your supervisor", "Your textbook"],
+      "correct": 1,
+      "explanation": "Machines vary by manufacturer and model, so the manufacturer's own directions are the most reliable and specific source for correct operation — general policy manuals and textbooks cover broader principles, not machine-specific details."
+    },
+    {
+      "id": "c3-26",
+      "domain": "Electrodes",
+      "lo": "3.4",
+      "question": "The most commonly used electrodes are _____ and are used _____.",
+      "options": ["disposable, more than once", "reusable, more than once", "disposable, once", "reusable, once"],
+      "correct": 2,
+      "explanation": "Standard practice is single-use, disposable electrodes — one use per patient, then discarded, which supports both infection control and consistent adhesive quality."
+    },
+    {
+      "id": "c3-27",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "\"Bipolar leads\" means that:",
+      "options": [
+        "One electrode is placed on the chest and the machine arbitrarily places one behind the person",
+        "Both positive and negative electrodes are placed on the patient's body",
+        "Einthoven's triangle is not used",
+        "One of the leg limbs is used while the machine augments the rhythm"
+      ],
+      "correct": 1,
+      "explanation": "Bipolar leads (leads I, II, and III) use two actual electrodes on the patient — one positive, one negative — to measure the electrical difference between two points. Augmented leads, by contrast, use a calculated reference point rather than a second physical electrode."
+    },
+    {
+      "id": "c3-28",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "What is the purpose of the LCD display on an ECG machine?",
+      "options": [
+        "To allow entry and display of patient information",
+        "To show the results of the ECG",
+        "To sound alarms and errors",
+        "To assist the patient to understand the procedure"
+      ],
+      "correct": 0,
+      "explanation": "The LCD screen is primarily where the technician enters and reviews patient demographic and clinical data before and during the procedure."
+    },
+    {
+      "id": "c3-29",
+      "domain": "Signal Processing & Channels",
+      "lo": "3.2",
+      "question": "The term multichannel ECG indicates that:",
+      "options": [
+        "You enter all the data into the machine prior to running a tracing",
+        "Three or more leads are recorded at one time",
+        "You do not have to mount each lead separately",
+        "All of the answers are correct"
+      ],
+      "correct": 1,
+      "explanation": "Multichannel specifically refers to the machine's ability to record three or more leads simultaneously rather than one at a time, which is what makes modern 12-lead ECGs fast to perform."
+    },
+    {
+      "id": "c3-30",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.3",
+      "question": "What is the standard paper speed for an ECG machine?",
+      "options": ["25 mm/sec", "50 mm/sec", "0.25 mm/sec", "0.50 mm/sec"],
+      "correct": 0,
+      "explanation": "25 mm/sec is the universal standard paper speed, which is why the measurements of the small and large boxes on ECG paper (0.04 sec and 0.2 sec respectively) are calculated the way they are."
+    },
+    {
+      "id": "c3-31",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "Which of the following is NOT a type of lead?",
+      "options": ["Limb", "Augmented", "Input", "Precordial"],
+      "correct": 2,
+      "explanation": "Limb, augmented, and precordial are the three lead categories. 'Input' is one of the ECG machine's three basic functions, not a type of lead."
+    },
+    {
+      "id": "c3-32",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "An artifact filter helps obtain a clear ECG tracing by:",
+      "options": [
+        "Maintaining artifact or abnormal marks on the ECG tracing",
+        "Always ensuring accurate readings by the computer",
+        "Always recognizing that the patient has a pacemaker",
+        "All of the answers are correct"
+      ],
+      "correct": 0,
+      "explanation": "An artifact filter works by filtering out interference frequencies that don't match a true cardiac signal. It's still important to know that a filter reduces certain noise, but doesn't guarantee a perfectly clean tracing on its own — good technique and patient prep still matter."
+    },
+    {
+      "id": "c3-33",
+      "domain": "Machine Controls & Interpretation",
+      "lo": "3.3",
+      "question": "Computerized interpretation:",
+      "options": [
+        "Can be used for actual diagnostic interpretation",
+        "Never has to be validated by a physician",
+        "Must always be validated by a physician",
+        "None of the answers are correct"
+      ],
+      "correct": 2,
+      "explanation": "A computer-generated interpretation is a helpful starting point, but it is never a final diagnosis — a physician must always review and validate it before it's used clinically."
+    },
+    {
+      "id": "c3-34",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "The horizontal reading on the ECG paper represents _____, and the vertical readings represent _____.",
+      "options": ["voltage, time", "time, height", "time, voltage", "voltage, millivolts"],
+      "correct": 2,
+      "explanation": "Horizontal = time (measured in seconds, via the mm boxes at the standard paper speed). Vertical = voltage (measured in millivolts, reflecting the height/amplitude of each waveform)."
+    },
+    {
+      "id": "c3-35",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "Which lead tracing must be augmented by the ECG machine to be able to see the different ECG waveforms?",
+      "options": ["Lead I", "Lead II", "Lead V6", "Lead aVF"],
+      "correct": 3,
+      "explanation": "aVF is one of the three augmented leads (along with aVR and aVL) — the machine amplifies the raw signal to produce a clear, readable waveform, unlike the standard limb leads (I, II) or precordial leads (V6), which don't need this amplification step."
+    },
+    {
+      "id": "c3-36",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "The Einthoven triangle is formed by using which of the following placement sites?",
+      "options": ["Right arm, left arm, left leg", "Right arm, left leg, right leg", "Right arm, middle of chest, left leg", "None of the answers are correct"],
+      "correct": 0,
+      "explanation": "Einthoven's triangle is formed by the three limb electrodes — right arm, left arm, and left leg — which together create the geometric basis for leads I, II, and III."
+    },
+    {
+      "id": "c3-37",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "At 25 mm/sec paper speed, how much time do five heavy lines (boxes) represent?",
+      "options": ["1 second", "0.2 second", "0.04 second"],
+      "correct": 0,
+      "explanation": "Each heavy box equals 0.2 seconds, so five heavy boxes in a row equal exactly 1 second — a handy way to measure out a full second at a glance on the tracing."
+    },
+    {
+      "id": "c3-38",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "At 25 mm/sec paper speed, how much time does one vertical heavy line (box) represent?",
+      "options": ["1 second", "0.2 second", "0.04 second"],
+      "correct": 1,
+      "explanation": "One heavy box (made up of 5 small boxes) equals 0.2 seconds at the standard 25 mm/sec paper speed."
+    },
+    {
+      "id": "c3-39",
+      "domain": "ECG Paper & Measurements",
+      "lo": "3.5",
+      "question": "At 25 mm/sec paper speed, how much time does the smallest vertical line (box) represent?",
+      "options": ["1 second", "0.2 second", "0.04 second"],
+      "correct": 2,
+      "explanation": "Each of the smallest boxes on ECG paper equals 0.04 seconds — the base unit that all the larger time measurements (0.2 sec, 1 sec) are built from."
+    },
+    {
+      "id": "c3-40",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What is the most common lead wire color for the left leg (LL)?",
+      "options": ["Green", "White", "Black", "Red"],
+      "correct": 3,
+      "explanation": "Red is the standard color for the left leg lead wire in the common color convention used across most ECG equipment."
+    },
+    {
+      "id": "c3-41",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What is the most common lead wire color for the right arm (RA)?",
+      "options": ["Green", "White", "Black", "Red"],
+      "correct": 1,
+      "explanation": "White is the standard color for the right arm lead wire."
+    },
+    {
+      "id": "c3-42",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What is the most common lead wire color for the right leg (RL)?",
+      "options": ["Green", "White", "Black", "Red"],
+      "correct": 0,
+      "explanation": "Green is the standard color for the right leg lead wire — this lead acts as the ground and isn't part of the actual measured tracing."
+    },
+    {
+      "id": "c3-43",
+      "domain": "Lead Types & Placement",
+      "lo": "3.1",
+      "question": "What is the most common lead wire color for the left arm (LA)?",
+      "options": ["Green", "White", "Black", "Red"],
+      "correct": 2,
+      "explanation": "Black is the standard color for the left arm lead wire."
+    }
+  ]
+}
