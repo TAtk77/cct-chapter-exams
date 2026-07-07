@@ -1,0 +1,169 @@
+{
+  "examTitle": "Chapter 5: Rhythm Strip Interpretation and Sinus Rhythms",
+  "chapterSource": "Ch5_Rhythm_Strip_and_Sinus_Rhythms.pdf",
+  "domains": [
+    "Key Terms & Definitions",
+    "ECG Measurements & Analysis",
+    "Sinus Rhythms & Clinical Signs"
+  ],
+  "questions": [
+    {
+      "id": "c5-01",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.2",
+      "question": "What term describes a heart rate less than 60 bpm?",
+      "options": ["Bradycardia", "Cardiac output", "Hypotension", "Ischemia"],
+      "correct": 0,
+      "explanation": "Bradycardia is defined purely by rate — anything below 60 beats per minute, regardless of the underlying rhythm causing it."
+    },
+    {
+      "id": "c5-02",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.3",
+      "question": "What term describes the amount of blood being pumped by the heart?",
+      "options": ["Vagal tone", "Cardiac output", "Syncope", "J point"],
+      "correct": 1,
+      "explanation": "Cardiac output is the volume of blood the heart pumps over a given time — a key measure of how effectively the heart is actually perfusing the body, not just how fast it's beating."
+    },
+    {
+      "id": "c5-03",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.6",
+      "question": "What term describes low blood pressure?",
+      "options": ["Tachycardia", "Ischemia", "Hypotension", "Palpitations"],
+      "correct": 2,
+      "explanation": "Hypotension refers specifically to blood pressure that's abnormally low — distinct from bradycardia (slow heart rate), even though the two can occur together."
+    },
+    {
+      "id": "c5-04",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.6",
+      "question": "What term describes a lack of blood supply?",
+      "options": ["Syncope", "Vagal tone", "Bradycardia", "Ischemia"],
+      "correct": 3,
+      "explanation": "Ischemia is the insufficient blood (and therefore oxygen) supply to tissue — in the heart, this is what underlies angina and can progress toward infarction if not resolved."
+    },
+    {
+      "id": "c5-05",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.2",
+      "question": "What is happening on the ECG when depolarization is completed and repolarization starts?",
+      "options": ["Cardiac output", "J point", "Hypotension", "Vagal tone"],
+      "correct": 1,
+      "explanation": "The J point marks the junction where the QRS complex ends and the ST segment begins — the handoff moment between ventricular depolarization finishing and repolarization beginning."
+    },
+    {
+      "id": "c5-06",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.4",
+      "question": "What term describes fast heartbeats felt by the patient?",
+      "options": ["Ischemia", "Syncope", "Palpitations", "Tachycardia"],
+      "correct": 2,
+      "explanation": "Palpitations are the patient's subjective sensation of their own heartbeat — often described as pounding, racing, or fluttering. Tachycardia is the objective measured rate; palpitations is what the patient reports feeling."
+    },
+    {
+      "id": "c5-07",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.6",
+      "question": "What term describes loss of consciousness (fainting)?",
+      "options": ["Syncope", "Vagal tone", "Hypotension", "Cardiac output"],
+      "correct": 0,
+      "explanation": "Syncope is the medical term for a fainting episode — often the result of a sudden drop in blood flow to the brain, which can be triggered by cardiac rhythm changes."
+    },
+    {
+      "id": "c5-08",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.2",
+      "question": "What term describes a heart rate greater than 100 bpm?",
+      "options": ["Bradycardia", "Ischemia", "Tachycardia", "Hypotension"],
+      "correct": 2,
+      "explanation": "Tachycardia is defined by rate alone — anything above 100 beats per minute, whatever the underlying cause or rhythm."
+    },
+    {
+      "id": "c5-09",
+      "domain": "Key Terms & Definitions",
+      "lo": "5.6",
+      "question": "What term describes tension on a nerve that causes changes in heart rate?",
+      "options": ["Vagal tone", "Palpitations", "J point", "Syncope"],
+      "correct": 0,
+      "explanation": "Vagal tone refers to the vagus nerve's influence on heart rate — increased vagal tone slows the heart down, which is part of why sinus arrhythmia tracks with breathing."
+    },
+    {
+      "id": "c5-10",
+      "domain": "Sinus Rhythms & Clinical Signs",
+      "lo": "5.3",
+      "question": "What is the rate of a normal sinus rhythm?",
+      "options": ["60 to 100 beats per minute", "50 to 90 beats per minute", "100 to 150 beats per minute", "60 to 80 beats per minute"],
+      "correct": 0,
+      "explanation": "Normal sinus rhythm is defined by a rate of 60-100 bpm, originating from the SA node, with regular R-R intervals and consistent P wave morphology."
+    },
+    {
+      "id": "c5-11",
+      "domain": "Sinus Rhythms & Clinical Signs",
+      "lo": "5.4",
+      "question": "Which sinus rhythm has a rate that is consistently less than 60 beats per minute?",
+      "options": ["Sinus tachycardia", "Sinus bradycardia", "Sinus dysrhythmia", "Sinus arrest"],
+      "correct": 1,
+      "explanation": "Sinus bradycardia looks just like normal sinus rhythm in every way except rate — it's simply slower than 60 bpm while keeping the same regular pattern and normal P waves."
+    },
+    {
+      "id": "c5-12",
+      "domain": "ECG Measurements & Analysis",
+      "lo": "5.2",
+      "question": "Which question does NOT need to be answered when determining the QRS measurement?",
+      "options": [
+        "Are all the QRS complexes of equal length?",
+        "What is the actual QRS measurement, and is it within normal limits?",
+        "Do all QRS complexes look alike?",
+        "Is the R-R pattern regular?"
+      ],
+      "correct": 3,
+      "explanation": "R-R regularity is about the rhythm's overall pacing, not the QRS complex's width or shape. When specifically evaluating the QRS measurement itself, you're checking its length, whether it falls within normal limits, and whether the complexes look consistent — not the spacing between beats."
+    },
+    {
+      "id": "c5-13",
+      "domain": "Sinus Rhythms & Clinical Signs",
+      "lo": "5.5",
+      "question": "Which sinus rhythm has a rate of more than 100 beats per minute?",
+      "options": ["Sinus tachycardia", "Sinus bradycardia", "Sinus dysrhythmia", "Sinus arrest"],
+      "correct": 0,
+      "explanation": "Sinus tachycardia is the sinus rhythm counterpart to bradycardia — same normal origin and pattern, just faster than 100 bpm."
+    },
+    {
+      "id": "c5-14",
+      "domain": "Sinus Rhythms & Clinical Signs",
+      "lo": "5.6",
+      "question": "Which rhythm shows an irregularity during inspiration and expiration?",
+      "options": ["Sinus tachycardia", "Sinus bradycardia", "Sinus dysrhythmia", "Sinus arrest"],
+      "correct": 2,
+      "explanation": "Sinus dysrhythmia (also called sinus arrhythmia) speeds up slightly during inspiration and slows down during expiration, tied to vagal tone changes with breathing — a normal finding, especially in younger patients."
+    },
+    {
+      "id": "c5-15",
+      "domain": "ECG Measurements & Analysis",
+      "lo": "5.2",
+      "question": "The normal PR interval is:",
+      "options": ["0.04 to 0.10 second", "0.12 to 0.20 second", "0.22 to 0.26 second", "0.28 to 0.32 second"],
+      "correct": 1,
+      "explanation": "A normal PR interval falls between 0.12 and 0.20 seconds — the same range you'd have seen in Chapter 2's discussion of the conduction system and the AV node's brief delay."
+    },
+    {
+      "id": "c5-16",
+      "domain": "ECG Measurements & Analysis",
+      "lo": "5.2",
+      "question": "If a QRS complex measures 0.12 second or wider, it most likely indicates:",
+      "options": ["normal ventricular conduction.", "delayed ventricular conduction.", "increased delay at the AV node.", "myocardial infarction."],
+      "correct": 1,
+      "explanation": "A widened QRS (0.12 sec or more) points to delayed conduction through the ventricles — the electrical signal is taking longer than normal to spread through the ventricular muscle, whatever the underlying cause."
+    },
+    {
+      "id": "c5-17",
+      "domain": "Sinus Rhythms & Clinical Signs",
+      "lo": "5.3",
+      "question": "Which of the following is a common sign of low cardiac output?",
+      "options": ["High blood pressure", "Alert and oriented", "Increased perfusion of vital organs", "Low blood pressure"],
+      "correct": 3,
+      "explanation": "When the heart isn't pumping enough blood to meet the body's needs, blood pressure drops as a result — along with signs like poor perfusion and altered mental status, not the improved perfusion or high blood pressure the other options describe."
+    }
+  ]
+}

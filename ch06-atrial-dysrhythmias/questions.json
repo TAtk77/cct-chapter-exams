@@ -1,0 +1,196 @@
+{
+  "examTitle": "Chapter 6: Atrial Dysrhythmias",
+  "chapterSource": "Ch6_Atrial_Dysrhythmias.pdf",
+  "domains": [
+    "Key Terms & Pathophysiology",
+    "Atrial Dysrhythmia Recognition",
+    "Clinical Significance & Risk"
+  ],
+  "questions": [
+    {
+      "id": "c6-01",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.1",
+      "question": "What does 'ectopic' mean?",
+      "options": ["Pertaining to the heart", "Outside the normal pacemaker site", "Pertaining to the nervous system", "Blood clot"],
+      "correct": 1,
+      "explanation": "Ectopic describes an impulse (or the site producing it) that originates somewhere other than the SA node — the heart's normal pacemaker."
+    },
+    {
+      "id": "c6-02",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.2",
+      "question": "What does 'trigeminy' mean?",
+      "options": ["Cell produces an ectopic impulse", "Pertaining to the nervous system", "Every third complex is premature", "Having two equal but opposite deflections"],
+      "correct": 2,
+      "explanation": "Trigeminy describes a repeating pattern where every third beat is a premature complex — two normal beats followed by one premature one, over and over."
+    },
+    {
+      "id": "c6-03",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.2",
+      "question": "What does 'focus' mean, in the context of dysrhythmias?",
+      "options": ["Outside the normal pacemaker site", "Cell produces an ectopic impulse", "Cardiac cell initiates an electrical impulse", "Pertaining to the kidneys"],
+      "correct": 1,
+      "explanation": "A focus is the specific cell or small cluster of cells generating an ectopic impulse — the actual origin point of the abnormal beat, distinct from 'ectopic,' which just describes the location being abnormal."
+    },
+    {
+      "id": "c6-04",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.1",
+      "question": "What does 'neurological' mean?",
+      "options": ["Pertaining to the heart", "Pertaining to the nervous system", "Pertaining to the kidneys", "Stroke"],
+      "correct": 1,
+      "explanation": "Neurological refers to anything related to the nervous system — relevant here since nervous system signals (like vagal tone) influence heart rate and rhythm."
+    },
+    {
+      "id": "c6-05",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.5",
+      "question": "What does 'automaticity' mean?",
+      "options": ["Every third complex is premature", "Blood clot", "Cardiac cell initiates an electrical impulse", "Traveling blood clot in the lungs"],
+      "correct": 2,
+      "explanation": "Automaticity is the property that lets cardiac cells generate their own electrical impulse without an outside trigger — normally the job of the SA node, but ectopic foci can develop this same ability."
+    },
+    {
+      "id": "c6-06",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.5",
+      "question": "What is 'atrial kick'?",
+      "options": [
+        "Blood is ejected completely by the atria prior to ventricular systole",
+        "Pertaining to the heart",
+        "Stroke",
+        "Having two equal but opposite deflections"
+      ],
+      "correct": 0,
+      "explanation": "Atrial kick is that final push of blood the atria deliver into the ventricles right before ventricular contraction — it's lost in rhythms like atrial fibrillation, which is part of why those rhythms reduce cardiac output."
+    },
+    {
+      "id": "c6-07",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.6",
+      "question": "What is a 'thrombus'?",
+      "options": ["Stroke", "Pertaining to the kidneys", "Traveling blood clot in the lungs", "Blood clot"],
+      "correct": 3,
+      "explanation": "A thrombus is a blood clot — in atrial fibrillation, blood pooling in the poorly-contracting atria creates a real risk of clot formation."
+    },
+    {
+      "id": "c6-08",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.2",
+      "question": "What does 'biphasic' mean?",
+      "options": ["Every third complex is premature", "Cardiac cell initiates an electrical impulse", "Pertaining to the nervous system", "Having two equal but opposite deflections"],
+      "correct": 3,
+      "explanation": "Biphasic describes a waveform that deflects both above and below the baseline in roughly equal measure — a shape you'll notice in certain P wave patterns and flutter waves."
+    },
+    {
+      "id": "c6-09",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.6",
+      "question": "What is a cerebrovascular accident?",
+      "options": ["Blood clot", "Traveling blood clot in the lungs", "Stroke", "Pertaining to the kidneys"],
+      "correct": 2,
+      "explanation": "A cerebrovascular accident is the clinical term for a stroke — a major risk for atrial fibrillation patients if a clot formed in the atria travels to the brain."
+    },
+    {
+      "id": "c6-10",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.6",
+      "question": "What does 'renal' mean?",
+      "options": ["Pertaining to the heart", "Pertaining to the kidneys", "Stroke", "Blood clot"],
+      "correct": 1,
+      "explanation": "Renal refers to anything related to the kidneys — relevant to atrial fibrillation because clots can also travel to the kidneys, not just the brain or lungs."
+    },
+    {
+      "id": "c6-11",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.6",
+      "question": "What is a pulmonary embolism?",
+      "options": ["Blood clot", "Traveling blood clot in the lungs", "Pertaining to the heart", "Stroke"],
+      "correct": 1,
+      "explanation": "A pulmonary embolism is a clot that has traveled and lodged in the lungs — another possible destination for a clot that forms due to atrial fibrillation."
+    },
+    {
+      "id": "c6-12",
+      "domain": "Key Terms & Pathophysiology",
+      "lo": "6.6",
+      "question": "What does 'myocardial' mean?",
+      "options": ["Pertaining to the heart", "Pertaining to the kidneys", "Stroke", "Blood clot"],
+      "correct": 0,
+      "explanation": "Myocardial refers to the heart muscle itself — as in myocardial infarction, another possible complication tied to clot formation and embolization."
+    },
+    {
+      "id": "c6-13",
+      "domain": "Atrial Dysrhythmia Recognition",
+      "lo": "6.3",
+      "question": "What is the rate of wandering atrial pacemaker rhythm?",
+      "options": ["60 to 100 beats per minute", "50 to 90 beats per minute", "101 to 150 beats per minute", "60 to 80 beats per minute"],
+      "correct": 0,
+      "explanation": "Wandering atrial pacemaker (WAP) stays within the normal rate range of 60-100 bpm — what sets it apart isn't the rate, but the shifting P wave shapes as the pacemaker site wanders between different atrial foci."
+    },
+    {
+      "id": "c6-14",
+      "domain": "Atrial Dysrhythmia Recognition",
+      "lo": "6.4",
+      "question": "Which dysrhythmia is similar to wandering atrial pacemaker, except that the rate exceeds 100 beats per minute?",
+      "options": ["Sinus tachycardia", "Multifocal atrial tachycardia", "Atrial flutter", "Atrial fibrillation"],
+      "correct": 1,
+      "explanation": "Multifocal atrial tachycardia (MAT) is essentially wandering atrial pacemaker's faster sibling — same shifting P wave shapes from multiple atrial foci, just at a rate above 100 bpm."
+    },
+    {
+      "id": "c6-15",
+      "domain": "Clinical Significance & Risk",
+      "lo": "6.6",
+      "question": "What is the major health risk for patients who have atrial fibrillation?",
+      "options": ["Hypertension", "Thrombus formation and embolization", "Bundle branch block", "Bleeding problems"],
+      "correct": 1,
+      "explanation": "The chaotic, ineffective atrial contraction in AFib allows blood to pool and clot in the atria. If that clot travels, it can cause a stroke, pulmonary embolism, or other embolic event — the major risk this rhythm carries."
+    },
+    {
+      "id": "c6-16",
+      "domain": "Atrial Dysrhythmia Recognition",
+      "lo": "6.5",
+      "question": "Which atrial dysrhythmia has capital 'F' waves and a classic sawtooth or picket-fence appearance?",
+      "options": ["PACs", "Multifocal atrial tachycardia", "Atrial fibrillation", "Atrial flutter"],
+      "correct": 3,
+      "explanation": "Atrial flutter's hallmark is that organized, repetitive sawtooth pattern of capital 'F' waves — a very regular, distinctive rhythm compared to the chaos of atrial fibrillation."
+    },
+    {
+      "id": "c6-17",
+      "domain": "Atrial Dysrhythmia Recognition",
+      "lo": "6.6",
+      "question": "Which atrial dysrhythmia has lowercase 'f' waves, chaotic atrial electrical activity, and irregular R-R intervals?",
+      "options": ["PACs", "Multifocal atrial tachycardia", "Atrial fibrillation", "Atrial flutter"],
+      "correct": 2,
+      "explanation": "Atrial fibrillation is defined by that chaotic, disorganized atrial activity — no clear P waves, just fine fibrillatory 'f' waves, with an irregularly irregular R-R pattern."
+    },
+    {
+      "id": "c6-18",
+      "domain": "Atrial Dysrhythmia Recognition",
+      "lo": "6.3",
+      "question": "Wandering atrial pacemaker rhythm must have _____ or more differently shaped P waves.",
+      "options": ["two", "three", "four", "none of the answers are correct"],
+      "correct": 1,
+      "explanation": "WAP requires at least three distinctly different P wave shapes on the tracing, reflecting the pacemaker site shifting between at least three different atrial foci."
+    },
+    {
+      "id": "c6-19",
+      "domain": "Clinical Significance & Risk",
+      "lo": "6.2",
+      "question": "When premature complexes occur in a rhythm, they interrupt the underlying rhythm, causing it to be _____ when analyzing it.",
+      "options": ["regular", "irregular", "a wider QRS complex", "bradycardic"],
+      "correct": 1,
+      "explanation": "A premature complex — arriving earlier than expected — throws off the otherwise regular spacing between beats, which is exactly what you'd flag as irregularity when analyzing R-R intervals."
+    },
+    {
+      "id": "c6-20",
+      "domain": "Clinical Significance & Risk",
+      "lo": "6.1",
+      "question": "Which of the following is a common sign of low cardiac output?",
+      "options": ["High blood pressure", "Alert and oriented", "Increased perfusion of vital organs", "Low blood pressure"],
+      "correct": 3,
+      "explanation": "As with the general principle covered in Chapter 5, reduced cardiac output translates to lower blood pressure — the heart simply isn't moving enough blood to maintain normal pressure and perfusion."
+    }
+  ]
+}
