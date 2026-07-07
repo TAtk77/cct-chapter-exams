@@ -1,0 +1,101 @@
+{
+  "examTitle": "Chapter 7: Junctional Dysrhythmias",
+  "chapterSource": "Ch7_Junctional_Dysrhythmias.pdf",
+  "domains": [
+    "Junctional Rhythm Rates",
+    "SVT Classification & Recognition"
+  ],
+  "questions": [
+    {
+      "id": "c7-01",
+      "domain": "Junctional Rhythm Rates",
+      "lo": "7.1",
+      "question": "What is the normal, inherent rate for the AV junction?",
+      "options": ["60-100 beats per minute", "40-60 beats per minute", "100-160 beats per minute", "20-40 beats per minute"],
+      "correct": 1,
+      "explanation": "The AV junction's own natural pacemaker rate is 40-60 bpm — slower than the SA node's 60-100 bpm, which is why the junction normally stays quiet unless the SA node fails to fire."
+    },
+    {
+      "id": "c7-02",
+      "domain": "SVT Classification & Recognition",
+      "lo": "7.6",
+      "question": "Which of the following dysrhythmias is NOT considered part of the supraventricular tachycardia classification?",
+      "options": ["Atrial fibrillation", "Sinus tachycardia", "Ventricular tachycardia", "Junctional tachycardia"],
+      "correct": 2,
+      "explanation": "Supraventricular means 'above the ventricles' — so any tachycardia originating in the atria, SA node, or AV junction qualifies. Ventricular tachycardia, by definition, originates below that point, in the ventricles, so it's excluded from the SVT category entirely."
+    },
+    {
+      "id": "c7-03",
+      "domain": "SVT Classification & Recognition",
+      "lo": "7.6",
+      "question": "What sign or symptom might a patient complain about when experiencing a supraventricular tachycardia in an unstable condition?",
+      "options": ["Back pain", "Palpitations", "Flank pain", "Chest pain and discomfort"],
+      "correct": 3,
+      "explanation": "An unstable SVT means the fast rate is compromising the patient's circulation — chest pain and discomfort is a red flag sign that the heart isn't perfusing adequately at that rate, distinct from the milder fluttering sensation of palpitations alone."
+    },
+    {
+      "id": "c7-04",
+      "domain": "SVT Classification & Recognition",
+      "lo": "7.6",
+      "question": "The criterion needed to classify a dysrhythmia as a supraventricular tachycardia is:",
+      "options": [
+        "a heart rate between 150 and 350 beats per minute.",
+        "a wide QRS complex.",
+        "a clear, easily identifiable P wave with the entire wave visualized.",
+        "atrial and ventricular rates that are not the same."
+      ],
+      "correct": 0,
+      "explanation": "SVT is defined largely by rate — 150 to 350 bpm — precisely because the P wave is often hard to identify clearly at these speeds, which is part of what makes pinpointing the exact origin so tricky."
+    },
+    {
+      "id": "c7-05",
+      "domain": "SVT Classification & Recognition",
+      "lo": "7.6",
+      "question": "What is the primary difficulty in determining a supraventricular rhythm?",
+      "options": ["Determining the ventricular rate", "Determining the regularity", "Measuring the QRS interval", "Determining the origin of the tachycardia"],
+      "correct": 3,
+      "explanation": "At very fast atrial rates, the P wave often gets buried or distorted, making it genuinely difficult to tell whether the rhythm originated in the atria, the SA node, or the AV junction — even though the rate and QRS width might be easy enough to measure."
+    },
+    {
+      "id": "c7-06",
+      "domain": "SVT Classification & Recognition",
+      "lo": "7.6",
+      "question": "When is the identification of the specific dysrhythmia important in terms of treatment of the patient?",
+      "options": [
+        "When the patient first complains of any signs or symptoms",
+        "When the patient's heart rate has decreased to a rate of 100 beats per minute",
+        "During the treatment of a fast tachycardia situation",
+        "After the rhythm has been converted to a normal rhythm and/or the heart rate is between 60 and 100 beats per minute"
+      ],
+      "correct": 2,
+      "explanation": "In an acute unstable tachycardia, treatment needs to happen fast — figuring out the exact SVT subtype in the moment matters because it can change the specific intervention chosen, even before every detail of the rhythm's origin is fully sorted out."
+    },
+    {
+      "id": "c7-07",
+      "domain": "Junctional Rhythm Rates",
+      "lo": "7.2",
+      "question": "What is the heart rate range for junctional escape rhythm?",
+      "options": ["20-40 beats per minute", "100-150 beats per minute", "40-60 beats per minute", "60-100 beats per minute"],
+      "correct": 2,
+      "explanation": "Junctional escape rhythm runs at the AV junction's own natural rate of 40-60 bpm — this is what takes over as a backup pacemaker when the SA node fails to fire."
+    },
+    {
+      "id": "c7-08",
+      "domain": "Junctional Rhythm Rates",
+      "lo": "7.3",
+      "question": "What is the heart rate range for accelerated junctional rhythm?",
+      "options": ["20-40 beats per minute", "100-150 beats per minute", "40-60 beats per minute", "60-100 beats per minute"],
+      "correct": 3,
+      "explanation": "Accelerated junctional rhythm runs faster than the junction's normal 40-60 bpm rate, but still within the normal overall range of 60-100 bpm — hence 'accelerated' rather than 'tachycardia.'"
+    },
+    {
+      "id": "c7-09",
+      "domain": "Junctional Rhythm Rates",
+      "lo": "7.4",
+      "question": "What is the heart rate range for junctional tachycardia?",
+      "options": ["20-40 beats per minute", "100-150 beats per minute", "40-60 beats per minute", "60-100 beats per minute"],
+      "correct": 1,
+      "explanation": "Junctional tachycardia pushes past the normal range entirely, into 100-150 bpm — the fastest of the three junctional rhythm variants (escape, accelerated, and tachycardia)."
+    }
+  ]
+}

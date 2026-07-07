@@ -1,0 +1,100 @@
+{
+  "examTitle": "Chapter 8: Heart Block Dysrhythmias",
+  "chapterSource": "Ch8_Heart_Block_Dysrhythmias.pdf",
+  "domains": [
+    "Heart Block Recognition",
+    "Heart Block Physiology & Clinical Impact"
+  ],
+  "questions": [
+    {
+      "id": "c8-01",
+      "domain": "Heart Block Recognition",
+      "lo": "8.2",
+      "question": "Which heart block rhythm has the distinguishing feature of a PR interval that measures greater than 0.20 second and measures the same duration each time?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 0,
+      "explanation": "First degree heart block is the simplest form — every impulse still gets through to the ventricles, just delayed. That delay shows up as a consistently prolonged (but unchanging) PR interval on every beat."
+    },
+    {
+      "id": "c8-02",
+      "domain": "Heart Block Recognition",
+      "lo": "8.3",
+      "question": "Which heart block dysrhythmia is identified by a repetitious prolonging PR interval pattern after each blocked QRS complex?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 1,
+      "explanation": "Second degree type I (Mobitz I / Wenckebach) has that classic progressive pattern — the PR interval lengthens with each beat until one QRS is dropped entirely, then the cycle restarts."
+    },
+    {
+      "id": "c8-03",
+      "domain": "Heart Block Recognition",
+      "lo": "8.4",
+      "question": "Which heart block dysrhythmia is identified by missing QRS complexes and a consistent PR interval measurement?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 2,
+      "explanation": "Second degree type II (Mobitz II) drops QRS complexes suddenly and unpredictably, without the warning sign of a progressively lengthening PR interval — the PR interval stays fixed right up until a beat is simply dropped."
+    },
+    {
+      "id": "c8-04",
+      "domain": "Heart Block Recognition",
+      "lo": "8.5",
+      "question": "Which heart block dysrhythmia is identified by regular P-P and R-R intervals that are firing at two distinctly different rates?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 3,
+      "explanation": "Third degree (complete) heart block means the atria and ventricles are completely disconnected electrically — each keeps its own regular rhythm, but at two entirely independent rates, since no atrial impulses are getting through to the ventricles at all."
+    },
+    {
+      "id": "c8-05",
+      "domain": "Heart Block Physiology & Clinical Impact",
+      "lo": "8.2",
+      "question": "P-P intervals are _____ with all heart block dysrhythmias.",
+      "options": ["irregular", "absent", "regular", "progressively prolonged"],
+      "correct": 2,
+      "explanation": "Across all heart block types, the SA node keeps firing normally and regularly — the block happens further down at the AV node or below, so the P-P intervals themselves stay regular even when the QRS complexes don't follow along consistently."
+    },
+    {
+      "id": "c8-06",
+      "domain": "Heart Block Physiology & Clinical Impact",
+      "lo": "8.5",
+      "question": "QRS complexes that measure 0.12 second or greater with a rate between 20 and 40 beats per minute indicate that the impulses causing ventricular depolarization are coming from the:",
+      "options": ["SA node", "interatrial pathways", "AV node", "Purkinje fibers (ventricles)"],
+      "correct": 3,
+      "explanation": "A slow rate (20-40 bpm) paired with a wide QRS points to a ventricular escape rhythm — the Purkinje fibers taking over as a last-resort pacemaker because no signal from above is getting through, which is exactly what happens in third degree heart block."
+    },
+    {
+      "id": "c8-07",
+      "domain": "Heart Block Physiology & Clinical Impact",
+      "lo": "8.2",
+      "question": "What is the typical heart rate range for first degree heart block?",
+      "options": ["20-40 beats per minute", "40-60 beats per minute", "60-100 beats per minute", "100-150 beats per minute"],
+      "correct": 2,
+      "explanation": "First degree heart block only delays conduction — it doesn't drop beats or change the underlying pacemaker — so the overall rate typically stays within the normal 60-100 bpm range."
+    },
+    {
+      "id": "c8-08",
+      "domain": "Heart Block Physiology & Clinical Impact",
+      "lo": "8.3",
+      "question": "Frequent nonconducted QRS complexes are likely to cause signs of:",
+      "options": ["high cardiac output", "low cardiac output", "kidney failure", "congestive heart failure"],
+      "correct": 1,
+      "explanation": "Every dropped QRS complex is a heartbeat that didn't happen — enough of those in a row and the heart simply isn't pumping enough blood, leading to the same low cardiac output signs covered in earlier chapters, like dropping blood pressure."
+    },
+    {
+      "id": "c8-09",
+      "domain": "Heart Block Recognition",
+      "lo": "8.2",
+      "question": "Which heart block dysrhythmia has regular P-P and R-R intervals with both having the same rate?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 0,
+      "explanation": "In first degree heart block, every P wave still conducts through to a QRS complex, just delayed — so the P-P and R-R intervals stay perfectly matched at the same rate, unlike the dropped beats seen in second and third degree blocks."
+    },
+    {
+      "id": "c8-10",
+      "domain": "Heart Block Recognition",
+      "lo": "8.4",
+      "question": "Which heart block dysrhythmia is known as the \"classical\" heart block?",
+      "options": ["First degree heart block", "Second degree type I", "Second degree type II", "Third degree heart block"],
+      "correct": 2,
+      "explanation": "Second degree type II (Mobitz II) is often referred to this way because of its clear-cut, predictable pattern of sudden, unwarned dropped beats — a distinctive and clinically significant presentation that typically requires closer monitoring or pacemaker consideration."
+    }
+  ]
+}
