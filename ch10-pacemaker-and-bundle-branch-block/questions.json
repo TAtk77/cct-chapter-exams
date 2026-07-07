@@ -1,0 +1,214 @@
+{
+  "examTitle": "Chapter 10: Pacemaker Rhythms and Bundle Branch Block",
+  "chapterSource": "Ch10_Pacemaker_and_Bundle_Branch_Block.pdf",
+  "domains": [
+    "Pacemaker Rhythm Recognition",
+    "Pacemaker Complications & Terminology",
+    "Bundle Branch Block"
+  ],
+  "questions": [
+    {
+      "id": "c10-01",
+      "domain": "Pacemaker Rhythm Recognition",
+      "lo": "10.1",
+      "question": "Which pacemaker rhythm shows a pacing spike before the P wave, but NOT before the QRS complex?",
+      "options": ["Atrial pacemaker rhythm", "Ventricular pacemaker", "Atrioventricular pacemaker", "Normal sinus rhythm"],
+      "correct": 0,
+      "explanation": "An atrial pacemaker only paces the atria, so its spike appears right before the P wave it's triggering — the QRS complex that follows is conducted normally through the intrinsic system, with no spike of its own."
+    },
+    {
+      "id": "c10-02",
+      "domain": "Pacemaker Rhythm Recognition",
+      "lo": "10.1",
+      "question": "Which pacemaker rhythm shows a pacing spike before the QRS complex, but NOT before the P wave?",
+      "options": ["Atrial pacemaker rhythm", "Ventricular pacemaker", "Atrioventricular pacemaker", "Normal sinus rhythm"],
+      "correct": 1,
+      "explanation": "A ventricular pacemaker only paces the ventricles, so its spike shows up right before the QRS complex — there's no atrial pacing spike since the atria are still depolarizing on their own (or not producing a visible P wave at all in some cases)."
+    },
+    {
+      "id": "c10-03",
+      "domain": "Pacemaker Rhythm Recognition",
+      "lo": "10.1",
+      "question": "Which pacemaker rhythm has a pacing spike before P waves AND before QRS complexes?",
+      "options": ["Atrial pacemaker rhythm", "Ventricular pacemaker", "Atrioventricular pacemaker", "Wandering atrial pacemaker"],
+      "correct": 2,
+      "explanation": "An atrioventricular (dual-chamber) pacemaker paces both the atria and ventricles in sequence, producing two distinct spikes — one just before the P wave, and another just before the QRS complex."
+    },
+    {
+      "id": "c10-04",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "Which pacemaker complication shows a pacing spike but no waveform immediately following it?",
+      "options": ["Failure to sense", "Failure to capture", "Oversensing", "Normal sinus rhythm"],
+      "correct": 1,
+      "explanation": "Failure to capture means the electrical spike fired, but it didn't successfully trigger the heart muscle to depolarize — so you see the spike on the tracing, but no corresponding P wave or QRS follows it."
+    },
+    {
+      "id": "c10-05",
+      "domain": "Bundle Branch Block",
+      "lo": "10.4",
+      "question": "You observe a wide QRS complex while continuously monitoring a patient in lead II. Which lead placement is necessary to evaluate the location of blockage in the bundle branch system?",
+      "options": ["Lead I", "Lead V4", "Lead III", "Lead V1"],
+      "correct": 3,
+      "explanation": "V1 gives the clearest view for distinguishing right vs. left bundle branch block based on QRS morphology — lead II alone can flag that something's wide, but V1 is what actually helps pinpoint which side is blocked."
+    },
+    {
+      "id": "c10-06",
+      "domain": "Bundle Branch Block",
+      "lo": "10.4",
+      "question": "The labeling of the ECG rhythm strip for documentation of the bundle branch block should include what other information besides which bundle is being blocked?",
+      "options": ["Symptoms the patient is experiencing", "Blood pressure reading", "Presence of an MI diagnosis", "Patient's inherent rhythm pattern"],
+      "correct": 3,
+      "explanation": "Documenting the patient's own underlying rhythm alongside the bundle branch block gives the physician the full clinical picture — the block is only part of the story; what the heart's baseline rhythm is doing matters too."
+    },
+    {
+      "id": "c10-07",
+      "domain": "Bundle Branch Block",
+      "lo": "10.3",
+      "question": "When the QRS complex measures _____, bundle branch block must be considered.",
+      "options": ["0.06 to 0.10 second", "0.04 to 0.08 second", "less than 0.06 second", "0.12 second or greater"],
+      "correct": 3,
+      "explanation": "A QRS of 0.12 seconds or wider signals delayed conduction through the ventricles — bundle branch block is one of the key possibilities to rule in or out whenever you see that widened complex."
+    },
+    {
+      "id": "c10-08",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "Which of the following is NOT one of the components to be evaluated on a pacemaker tracing?",
+      "options": [
+        "The presence of atrial and/or ventricular spikes",
+        "The QT interval",
+        "The characteristic patterns of the chambers captured after the spikes",
+        "The atrioventricular delay period"
+      ],
+      "correct": 1,
+      "explanation": "Evaluating a pacemaker tracing focuses on the pacing spikes themselves, whether capture actually occurred, and the AV delay timing — the QT interval isn't part of the specific pacemaker-function checklist."
+    },
+    {
+      "id": "c10-09",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is pacemaker competition?",
+      "options": [
+        "A device that delivers electrical energy to cause depolarization",
+        "Rivalry between the intrinsic and electronic pacemakers, which can lead to life-threatening complications",
+        "Pacing activity occurs but is not captured by the myocardium",
+        "Pacemaker fails to detect any intrinsic electrical activity"
+      ],
+      "correct": 1,
+      "explanation": "Pacemaker competition happens when the heart's own natural pacemaker and the electronic device are both trying to control the rhythm at the same time — a dangerous situation since competing impulses can land at vulnerable moments in the cardiac cycle."
+    },
+    {
+      "id": "c10-10",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is an electronic pacemaker?",
+      "options": [
+        "Rivalry between the intrinsic and electronic pacemakers",
+        "Pacing activity occurs but is not captured by the myocardium",
+        "Device that delivers electrical energy to cause depolarization (contractions)",
+        "Pacemaker fails to send electrical impulse to the heart"
+      ],
+      "correct": 2,
+      "explanation": "An electronic (artificial) pacemaker is the actual implanted device that delivers electrical impulses to stimulate the heart to contract when the intrinsic system isn't reliably doing the job."
+    },
+    {
+      "id": "c10-11",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is 'loss of capture'?",
+      "options": [
+        "Pacemaker does not recognize the patient's inherent heart rate",
+        "Pacing activity occurs but is not captured by the myocardium",
+        "Electrical current from muscle movements or other activities are sensed by the pacemaker",
+        "Pacemaker fails to detect any intrinsic electrical activity"
+      ],
+      "correct": 1,
+      "explanation": "Loss of capture is when the pacemaker fires a spike, but the heart muscle doesn't actually respond and depolarize — the same concept tested earlier as the 'spike with no waveform following it' complication."
+    },
+    {
+      "id": "c10-12",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is 'undersensing'?",
+      "options": [
+        "Pacemaker fails to send electrical impulse to the heart",
+        "Electrical current causes the myocardial tissue to depolarize",
+        "Heart muscle responds to electrical stimulation and depolarizes",
+        "Pacemaker fails to detect any intrinsic electrical activity"
+      ],
+      "correct": 3,
+      "explanation": "Undersensing means the pacemaker misses the heart's own natural electrical activity that's already happening — so it may fire unnecessarily, potentially competing with the heart's intrinsic rhythm."
+    },
+    {
+      "id": "c10-13",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is 'malsensing'?",
+      "options": [
+        "Pacemaker does not recognize the patient's inherent heart rate",
+        "Device that delivers electrical energy to cause depolarization",
+        "Heart muscle responds to electrical stimulation and depolarizes",
+        "Electrical current causes the myocardial tissue to depolarize"
+      ],
+      "correct": 0,
+      "explanation": "Malsensing is a broader sensing failure — the pacemaker isn't correctly recognizing the patient's own heart rate, which covers both undersensing and oversensing as specific subtypes."
+    },
+    {
+      "id": "c10-14",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What does 'malfunctioning' mean, in the context of a pacemaker?",
+      "options": [
+        "Pacemaker fails to send electrical impulse to the heart",
+        "Rivalry between the intrinsic and electronic pacemakers",
+        "Electrical current from muscle movements or other activities are sensed by the pacemaker",
+        "Heart muscle responds to electrical stimulation and depolarizes"
+      ],
+      "correct": 0,
+      "explanation": "A malfunctioning pacemaker is one that fails to deliver its electrical impulse to the heart at all — a distinct problem from sensing issues, since here the device simply isn't firing when it should."
+    },
+    {
+      "id": "c10-15",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What is 'oversensing'?",
+      "options": [
+        "Pacemaker fails to detect any intrinsic electrical activity",
+        "Electrical current from muscle movements or other activities are sensed by the pacemaker",
+        "Device that delivers electrical energy to cause depolarization",
+        "Pacing activity occurs but is not captured by the myocardium"
+      ],
+      "correct": 1,
+      "explanation": "Oversensing is the opposite problem from undersensing — the pacemaker picks up electrical 'noise' from things like muscle movement that aren't actually a real heartbeat, and may withhold pacing when it shouldn't."
+    },
+    {
+      "id": "c10-16",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What does 'triggered' mean, in the context of pacemaker function?",
+      "options": [
+        "Electrical current causes the myocardial tissue to depolarize (contract)",
+        "Rivalry between the intrinsic and electronic pacemakers",
+        "Pacemaker fails to send electrical impulse to the heart",
+        "Pacemaker does not recognize the patient's inherent heart rate"
+      ],
+      "correct": 0,
+      "explanation": "Triggered describes the electrical event itself — the current causing the myocardial tissue to actually depolarize and contract, whether that trigger came from the pacemaker or the heart's own conduction system."
+    },
+    {
+      "id": "c10-17",
+      "domain": "Pacemaker Complications & Terminology",
+      "lo": "10.2",
+      "question": "What does 'capture' mean, in the context of pacemaker function?",
+      "options": [
+        "Device that delivers electrical energy to cause depolarization",
+        "Pacing activity occurs but is not captured by the myocardium",
+        "Heart muscle responds to electrical stimulation and depolarizes (contracts)",
+        "Electrical current from muscle movements or other activities are sensed by the pacemaker"
+      ],
+      "correct": 2,
+      "explanation": "Capture is the successful outcome — the heart muscle actually responding to the pacing spike and contracting, which is exactly what's missing in a 'loss of capture' or 'failure to capture' complication."
+    }
+  ]
+}

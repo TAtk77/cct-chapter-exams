@@ -1,0 +1,82 @@
+{
+  "examTitle": "Chapter 9: Ventricular Dysrhythmias",
+  "chapterSource": "Ch9_Ventricular_Dysrhythmias.pdf",
+  "domains": [
+    "Ventricular Rhythm Recognition & Rates",
+    "Clinical Significance"
+  ],
+  "questions": [
+    {
+      "id": "c9-01",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.2-9.8",
+      "question": "Which ventricular dysrhythmia has no P waves?",
+      "options": ["Idioventricular", "Accelerated idioventricular", "Ventricular tachycardia", "Ventricular fibrillation", "All of the answers are correct"],
+      "correct": 4,
+      "explanation": "None of the ventricular dysrhythmias show true P waves, since all of them originate below the atria — in the ventricles themselves — so there's no organized atrial depolarization to produce one."
+    },
+    {
+      "id": "c9-02",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.5",
+      "question": "Which ventricular dysrhythmia has a heart rate between 40 and 100 beats per minute?",
+      "options": ["Asystole", "Idioventricular", "Accelerated idioventricular", "Ventricular tachycardia", "Ventricular fibrillation", "Agonal"],
+      "correct": 2,
+      "explanation": "Accelerated idioventricular rhythm sits in the 40-100 bpm range — faster than plain idioventricular rhythm's slow escape rate, but not fast enough to be classified as ventricular tachycardia."
+    },
+    {
+      "id": "c9-03",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.3",
+      "question": "Which ventricular dysrhythmia has a heart rate less than 20 beats per minute?",
+      "options": ["Idioventricular", "Accelerated idioventricular", "Ventricular tachycardia", "Ventricular fibrillation", "Agonal"],
+      "correct": 4,
+      "explanation": "Agonal rhythm is the slowest of the ventricular rhythms, under 20 bpm — a dying heart rhythm that's a medical emergency, often seen in the final stages before asystole."
+    },
+    {
+      "id": "c9-04",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.4",
+      "question": "Which ventricular dysrhythmia has a heart rate between 20 and 40 beats per minute?",
+      "options": ["Asystole", "Idioventricular", "Accelerated idioventricular", "Ventricular tachycardia", "Ventricular fibrillation", "Agonal"],
+      "correct": 1,
+      "explanation": "Idioventricular rhythm runs at 20-40 bpm — the ventricles' own natural escape rate when no faster pacemaker above them is firing."
+    },
+    {
+      "id": "c9-05",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.1",
+      "question": "What is unique about ventricular dysrhythmias with regard to the P-P intervals?",
+      "options": ["They are irregular.", "They are biphasic.", "They are regular.", "There are no P waves, so the P-P interval cannot be measured."],
+      "correct": 3,
+      "explanation": "Since ventricular dysrhythmias don't produce true P waves at all, there's simply nothing to measure a P-P interval from — this is a fundamentally different situation than the regular or irregular P-P patterns seen in atrial or sinus rhythms."
+    },
+    {
+      "id": "c9-06",
+      "domain": "Ventricular Rhythm Recognition & Rates",
+      "lo": "9.1",
+      "question": "QRS complexes that measure 0.12 second or greater with a rate between 20 and 40 beats per minute indicate that the impulses causing ventricular depolarization are coming from the:",
+      "options": ["SA node", "interatrial pathways", "AV node", "Purkinje fibers (ventricles)"],
+      "correct": 3,
+      "explanation": "A wide QRS at that slow a rate points to the Purkinje fibers acting as the pacemaker — the ventricles' own backup system taking over because no signal is coming through from above, which is exactly what defines idioventricular rhythm."
+    },
+    {
+      "id": "c9-07",
+      "domain": "Clinical Significance",
+      "lo": "9.7",
+      "question": "Ventricular fibrillation is typically described as:",
+      "options": ["regular", "absent", "chaotic", "none of the answers are correct"],
+      "correct": 2,
+      "explanation": "Ventricular fibrillation shows completely disorganized, chaotic electrical activity — no identifiable QRS complexes, no coordinated contraction, and no effective cardiac output at all."
+    },
+    {
+      "id": "c9-08",
+      "domain": "Clinical Significance",
+      "lo": "9.2",
+      "question": "Which of the following dysrhythmias is NOT considered to be a medical emergency?",
+      "options": ["Agonal", "Asystole", "Ventricular fibrillation", "Occasional PVCs"],
+      "correct": 3,
+      "explanation": "Occasional PVCs are common and often benign, especially in an otherwise healthy heart. Agonal rhythm, asystole, and ventricular fibrillation, by contrast, are all life-threatening rhythms requiring immediate emergency response."
+    }
+  ]
+}

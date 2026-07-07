@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 10: Pacemaker Rhythms and Bundle Branch Block | Pivotal Health CCT Training</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --bg:        #0d1117;
+  --surface:   #161c26;
+  --card:      #1c2535;
+  --border:    #263045;
+  --accent:    #1e6fb5;
+  --accent2:   #2491d4;
+  --red:       #cb2c21;
+  --green:     #1e7e4a;
+  --green-lit: #27ae60;
+  --red-lit:   #e74c3c;
+  --text:      #d0d9e8;
+  --muted:     #7a8fa8;
+  --label:     #5b8fbf;
+  --white:     #f0f4fa;
+}
+:root.light {
+  --bg:        #eef2f7;
+  --surface:   #dde5f0;
+  --card:      #f4f7fb;
+  --border:    #b8c8de;
+  --accent:    #1e6fb5;
+  --accent2:   #1a7abf;
+  --red:       #c0392b;
+  --green:     #1e7e4a;
+  --green-lit: #1a7a40;
+  --red-lit:   #c0392b;
+  --text:      #1a2535;
+  --muted:     #4a6480;
+  --label:     #83b9f0;
+  --white:     #0d1a2e;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  transition: background .25s, color .25s;
+}
+
+/* ── HEADER ── */
+header {
+  background: linear-gradient(135deg, #0a1a2e 0%, #0f2a4a 60%, #12355e 100%);
+  border-bottom: 2px solid var(--accent);
+  padding: 24px 24px 20px;
+  position: relative;
+}
+:root.light header { background: linear-gradient(135deg, #1a3a5c, #1e5599, #1a6abf); }
+header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--red), var(--accent), var(--accent2));
+}
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header-text { flex: 1; }
+.header-eyebrow {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 3px; text-transform: uppercase;
+  color: var(--label); margin-bottom: 4px;
+}
+header h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 32px; font-weight: 700;
+  color: #f0f4fa; line-height: 1.1;
+}
+header h1 span { color: var(--accent2); }
+.header-sub { font-size: 13px; color: #7a9ab8; margin-top: 4px; }
+
+#theme-toggle {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
+  color: #f0f4fa; width: 34px; height: 34px;
+  border-radius: 6px; cursor: pointer; font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .2s; flex-shrink: 0;
+}
+#theme-toggle:hover { background: rgba(255,255,255,.2); }
+
+/* ── CONTROLS BAR ── */
+.controls {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.controls-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.progress-bar-outer {
+  width: 140px; height: 6px;
+  background: var(--border);
+  border-radius: 3px; overflow: hidden;
+}
+.progress-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 3px;
+  transition: width .3s;
+  width: 0%;
+}
+#progress-text { min-width: 60px; }
+.domain-select {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+.spacer { flex: 1; }
+.btn-restart {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted); padding: 7px 16px;
+  border-radius: 4px; font-family: 'Lato', sans-serif;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer; letter-spacing: .5px;
+  text-transform: uppercase; transition: all .15s;
+}
+.btn-restart:hover { border-color: var(--accent); color: var(--accent2); }
+.btn-score {
+  background: var(--accent);
+  border: none;
+  color: #fff; padding: 7px 18px;
+  border-radius: 4px; font-family: 'Lato', sans-serif;
+  font-size: 13px; font-weight: 700;
+  cursor: pointer; letter-spacing: 1px;
+  text-transform: uppercase; transition: background .15s;
+}
+.btn-score:hover { background: var(--accent2); }
+
+/* ── MAIN ── */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ── QUESTION CARD ── */
+.q-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.q-card.correct { border-color: var(--green-lit); }
+.q-card.wrong   { border-color: var(--red-lit); }
+
+.q-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px 6px;
+}
+.q-domain {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase;
+  color: var(--label);
+}
+.q-num { font-size: 12px; color: var(--muted); margin-left: auto; }
+
+.q-text {
+  padding: 4px 18px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.5;
+}
+
+/* ── CHOICES ── */
+.choices {
+  padding: 0 18px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.choice-btn {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-size: 14.5px; font-weight: 400;
+  padding: 12px 16px;
+  cursor: pointer;
+  text-align: left;
+  transition: all .15s;
+}
+.choice-btn:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent2);
+  color: #fff;
+}
+.choice-btn:disabled { cursor: default; }
+.choice-btn.correct {
+  background: #0a2016;
+  border-color: var(--green-lit);
+  color: #7de0a0;
+}
+.choice-btn.wrong {
+  background: #200a0a;
+  border-color: var(--red-lit);
+  color: #e08080;
+}
+:root.light .choice-btn.correct { background: #c8eeda; color: #0d4a24; }
+:root.light .choice-btn.wrong   { background: #f5d0d0; color: #6b1010; }
+
+/* ── FEEDBACK ── */
+.feedback {
+  margin: 0 18px 16px;
+  font-size: 13.5px;
+  padding: 10px 14px;
+  border-radius: 4px;
+  display: none;
+  line-height: 1.55;
+}
+.feedback.correct {
+  background: #0a2016;
+  border-left: 3px solid var(--green-lit);
+  color: #7de0a0;
+  display: block;
+}
+.feedback.wrong {
+  background: #200a0a;
+  border-left: 3px solid var(--red-lit);
+  color: #e08080;
+  display: block;
+}
+:root.light .feedback.correct { background: #c8eeda; color: #0d4a24; }
+:root.light .feedback.wrong   { background: #f5d0d0; color: #6b1010; }
+.feedback-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: .3px;
+  margin-right: 4px;
+}
+
+/* ── SCORE SUMMARY ── */
+#score-summary {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.75);
+  z-index: 500;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#score-summary.show { display: flex; }
+.score-card-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 32px 36px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0,0,0,.5);
+  text-align: center;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.score-card-wrap h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px; font-weight: 700;
+  color: var(--white);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.total-score-row {
+  background: linear-gradient(135deg, #0f2a4a, #0a2040);
+  border: 1px solid var(--accent);
+  border-radius: 6px; padding: 20px 24px;
+  display: flex; align-items: center;
+  justify-content: space-between; margin-bottom: 16px;
+}
+:root.light .total-score-row { background: linear-gradient(135deg, #cddaed, #b8ccdf); }
+.total-score-num {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 48px; font-weight: 700;
+  color: var(--accent2); line-height: 1;
+}
+.total-score-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--label);
+  margin-bottom: 4px;
+}
+.pass-badge, .fail-badge {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px; font-weight: 700;
+  padding: 6px 18px; border-radius: 4px;
+}
+.pass-badge { background: var(--green); color: #fff; }
+.fail-badge { background: var(--red); color: #fff; }
+
+.domain-breakdown { text-align: left; margin-top: 4px; }
+.domain-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0;
+  font-size: 13.5px;
+  border-bottom: 1px solid var(--border);
+}
+.domain-row:last-child { border-bottom: none; }
+.domain-row-name { color: var(--muted); }
+.domain-row-score {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700; color: var(--white);
+}
+
+.reset-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted); padding: 8px 18px;
+  border-radius: 4px; font-family: 'Lato', sans-serif;
+  font-size: 13px; cursor: pointer;
+  transition: all .15s; margin-top: 18px;
+}
+.reset-btn:hover { border-color: var(--accent); color: var(--accent2); }
+
+@media (max-width: 640px) {
+  header h1 { font-size: 26px; }
+  .controls-inner { flex-wrap: wrap; }
+  .score-card-wrap { padding: 24px 20px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-text">
+      <div class="header-eyebrow">Pivotal Health · CCT Training</div>
+      <h1>Chapter 10: <span>Pacemaker Rhythms and Bundle Branch Block</span></h1>
+      <div class="header-sub"><span id="q-count">—</span> questions · Practice Exam · Self-Scoring</div>
+    </div>
+    <button id="theme-toggle" onclick="toggleTheme()" title="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="controls-inner">
+    <div class="progress-wrap">
+      <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar"></div></div>
+      <span id="progress-text">0 / 0</span>
+    </div>
+    <select class="domain-select" id="domain-filter">
+      <option value="all">All domains</option>
+    </select>
+    <div class="spacer"></div>
+    <button class="btn-restart" id="restart-btn">Restart</button>
+    <button class="btn-score" id="score-btn">Score</button>
+  </div>
+</div>
+
+<main id="quiz"></main>
+
+<div id="score-summary">
+  <div class="score-card-wrap">
+    <h2>Exam Complete</h2>
+    <div class="total-score-row">
+      <div>
+        <div class="total-score-label">Your Score</div>
+        <div class="total-score-num" id="score-num">0%</div>
+      </div>
+      <div id="score-badge"></div>
+    </div>
+    <div class="domain-breakdown" id="domain-breakdown"></div>
+    <button class="reset-btn" onclick="restartExam()">Retake Exam</button>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'questions.json';
+const STORE_KEY = 'ch10_pacemaker_bbb_exam';
+
+let DATA = null;
+let answered = {};
+let activeDomain = 'all';
+
+function visibleQuestions() {
+  if (!DATA) return [];
+  if (activeDomain === 'all') return DATA.questions;
+  return DATA.questions.filter(q => q.domain === activeDomain);
+}
+
+function load() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (raw) answered = JSON.parse(raw);
+  } catch(e) { answered = {}; }
+}
+function save() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(answered)); } catch(e) {}
+}
+
+function render() {
+  const quiz = document.getElementById('quiz');
+  quiz.innerHTML = '';
+  const qs = visibleQuestions();
+
+  qs.forEach((q, idx) => {
+    const state = answered[q.id];
+    const card = document.createElement('div');
+    card.className = 'q-card' + (state ? (state.correct ? ' correct' : ' wrong') : '');
+
+    card.innerHTML = `
+      <div class="q-header">
+        <span class="q-domain">${q.domain}</span>
+        <span class="q-num">Question ${idx + 1} of ${qs.length}</span>
+      </div>
+      <div class="q-text">${q.question}</div>
+      <div class="choices" data-qid="${q.id}"></div>
+      <div class="feedback ${state ? (state.correct ? 'correct' : 'wrong') : ''}" id="fb-${q.id}"></div>
+    `;
+
+    const choicesEl = card.querySelector('.choices');
+    q.options.forEach((optText, oi) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-btn';
+      btn.textContent = optText;
+      if (state) {
+        btn.disabled = true;
+        if (oi === q.correct) btn.classList.add('correct');
+        else if (oi === state.selected) btn.classList.add('wrong');
+      }
+      btn.addEventListener('click', () => selectAnswer(q, oi));
+      choicesEl.appendChild(btn);
+    });
+
+    if (state) {
+      const fb = card.querySelector(`#fb-${q.id}`);
+      const isRight = state.selected === q.correct;
+      fb.innerHTML = `<span class="feedback-label">${isRight ? 'Correct.' : 'Not quite.'}</span>${q.explanation}`;
+    }
+
+    quiz.appendChild(card);
+  });
+
+  updateProgress();
+}
+
+function selectAnswer(q, optionIndex) {
+  if (answered[q.id]) return;
+  answered[q.id] = { selected: optionIndex, correct: optionIndex === q.correct };
+  save();
+  render();
+
+  const total = DATA.questions.length;
+  const done = Object.keys(answered).length;
+  if (done === total) showSummary();
+}
+
+function updateProgress() {
+  const total = DATA.questions.length;
+  const done = Object.keys(answered).length;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  document.getElementById('progress-bar').style.width = pct + '%';
+  document.getElementById('progress-text').textContent = `${done} / ${total}`;
+}
+
+function showSummary() {
+  const total = DATA.questions.length;
+  const correctCount = Object.values(answered).filter(a => a.correct).length;
+  const pct = Math.round((correctCount / total) * 100);
+
+  document.getElementById('score-num').textContent = pct + '%';
+  const badge = document.getElementById('score-badge');
+  badge.className = pct >= 80 ? 'pass-badge' : 'fail-badge';
+  badge.textContent = pct >= 80 ? 'PASSING' : 'NEEDS WORK';
+
+  const breakdown = document.getElementById('domain-breakdown');
+  breakdown.innerHTML = '';
+  DATA.domains.forEach(domain => {
+    const domainQs = DATA.questions.filter(q => q.domain === domain);
+    const domainCorrect = domainQs.filter(q => answered[q.id] && answered[q.id].correct).length;
+    const row = document.createElement('div');
+    row.className = 'domain-row';
+    row.innerHTML = `<span class="domain-row-name">${domain}</span><span class="domain-row-score">${domainCorrect}/${domainQs.length}</span>`;
+    breakdown.appendChild(row);
+  });
+
+  document.getElementById('score-summary').classList.add('show');
+}
+
+function restartExam() {
+  if (Object.keys(answered).length && !confirm('Reset all answers? This cannot be undone.')) return;
+  answered = {};
+  save();
+  document.getElementById('score-summary').classList.remove('show');
+  render();
+}
+
+// ── THEME ─────────────────────────────────────────────────────
+function applyTheme(t) {
+  document.documentElement.classList.toggle('light', t === 'light');
+  document.getElementById('theme-toggle').textContent = t === 'light' ? '☀️' : '🌙';
+}
+function toggleTheme() {
+  const next = document.documentElement.classList.contains('light') ? 'dark' : 'light';
+  applyTheme(next);
+  try { localStorage.setItem('cct_theme', next); } catch(e) {}
+}
+
+// ── INIT ─────────────────────────────────────────────────────
+async function init() {
+  try { applyTheme(localStorage.getItem('cct_theme') === 'light' ? 'light' : 'dark'); }
+  catch(e) { applyTheme('dark'); }
+
+  const res = await fetch(DATA_URL + '?cb=' + Date.now());
+  DATA = await res.json();
+
+  document.getElementById('q-count').textContent = DATA.questions.length;
+
+  const domainSelect = document.getElementById('domain-filter');
+  DATA.domains.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d; opt.textContent = d;
+    domainSelect.appendChild(opt);
+  });
+  domainSelect.addEventListener('change', e => {
+    activeDomain = e.target.value;
+    render();
+  });
+
+  document.getElementById('restart-btn').addEventListener('click', restartExam);
+  document.getElementById('score-btn').addEventListener('click', showSummary);
+
+  load();
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
