@@ -1,0 +1,445 @@
+[
+  {
+    "id": 1,
+    "domain": "LO 11.5",
+    "question": "What is your most important responsibility during exercise electrocardiography?",
+    "options": [
+      "Providing for safety",
+      "Applying the leads",
+      "Monitoring the ECG tracing",
+      "Taking the patient's blood pressure"
+    ],
+    "correct": 0,
+    "explanation": "Safety is the top priority. Applying leads, monitoring the tracing, and taking blood pressure are all important tasks, but everything is done in service of keeping the patient safe and being prepared for an emergency."
+  },
+  {
+    "id": 2,
+    "domain": "LO 11.5",
+    "question": "Which of the following conditions would be a reason that a patient should NOT perform exercise electrocardiography?",
+    "options": [
+      "Coronary vascular disease",
+      "Previous heart attack",
+      "Congestive heart failure",
+      "Previous symptoms of angina"
+    ],
+    "correct": 2,
+    "explanation": "CHF is a listed contraindication because the heart cannot pump an adequate volume of blood. CVD, a prior MI, and prior angina are actually common reasons the test is ordered in the first place, not reasons to avoid it."
+  },
+  {
+    "id": 3,
+    "domain": "LO 11.3",
+    "question": "What type of test would be performed on a patient who is unable to stand or exercise?",
+    "options": [
+      "Chemical stress test",
+      "Blood pressure test",
+      "Treadmill stress test",
+      "Stress echocardiogram"
+    ],
+    "correct": 0,
+    "explanation": "A chemical stress test uses an IV medication (such as adenosine, Persantine, dobutamine, or Lexiscan) to mimic the effects of exercise on the heart when the patient can't walk or bike due to age, injury, or a physical limitation."
+  },
+  {
+    "id": 4,
+    "domain": "LO 11.6",
+    "question": "During exercise electrocardiography, your patient appears to be short of breath. After informing the physician of your suspicions, what would you do?",
+    "options": [
+      "Continue the test with no changes",
+      "Take the patient's blood pressure",
+      "Ask the patient to stop the exercise portion of the test",
+      "Without the patient's knowledge, count the respiratory rate and compare to the previous rate"
+    ],
+    "correct": 1,
+    "explanation": "The physician directs whether the test continues or stops. Your role is to keep monitoring closely and gather objective data, such as blood pressure, that helps the physician decide next steps."
+  },
+  {
+    "id": 5,
+    "domain": "LO 11.5",
+    "question": "Mr. Jones is on several medications and is scheduled for an exercise electrocardiography test tomorrow. What should you do first to determine if he should take his medications prior to the test?",
+    "options": [
+      "Check the chart or order",
+      "Ask the physician",
+      "Instruct the patient not to take his beta blocker medications",
+      "Tell Mr. Jones to take all of his medications because they are necessary for his treatment"
+    ],
+    "correct": 0,
+    "explanation": "Always check the physician's order first. If medication instructions aren't documented there, then you ask the physician directly rather than making the call yourself."
+  },
+  {
+    "id": 6,
+    "domain": "LO 11.5",
+    "question": "A beta blocker is:",
+    "options": [
+      "a protocol for exercise electrocardiography",
+      "a medication for hypertension",
+      "necessary when performing exercise electrocardiography",
+      "a type of ultrasound"
+    ],
+    "correct": 1,
+    "explanation": "Beta blockers treat hypertension. They are frequently held before a stress test because they can blunt the heart rate response and affect test accuracy."
+  },
+  {
+    "id": 7,
+    "domain": "LO 11.6",
+    "question": "Which of the following is measured during exercise electrocardiography?",
+    "options": [
+      "Blood pressure and temperature",
+      "Blood pressure and weight",
+      "12-lead ECG and weight",
+      "12-lead ECG and blood pressure"
+    ],
+    "correct": 3,
+    "explanation": "Throughout the test, a 12-lead ECG and blood pressure are obtained repeatedly (along with heart rate, skin temperature, oxygen saturation, and physical appearance), not weight or temperature alone."
+  },
+  {
+    "id": 8,
+    "domain": "LO 11.4",
+    "question": "When educating the female patient for exercise electrocardiography, you should instruct her not to wear:",
+    "options": [
+      "shorts",
+      "tennis shoes",
+      "an underwire bra",
+      "comfortable clothing"
+    ],
+    "correct": 2,
+    "explanation": "Female patients should avoid an underwire bra because the metal underwire can interfere with electrode placement and signal quality on the chest."
+  },
+  {
+    "id": 9,
+    "domain": "LO 11.4",
+    "question": "Which is the correct pre-test instruction regarding alcohol, tobacco, and caffeine?",
+    "options": [
+      "Avoid them for at least 8 hours prior to the test",
+      "Avoid them for at least 3 hours prior to the test",
+      "Avoid them for at least 24 hours prior to the test",
+      "There is no restriction as long as the patient feels fine"
+    ],
+    "correct": 1,
+    "explanation": "The chapter specifies avoiding alcohol, tobacco, and caffeine for at least 3 hours before the test (and no food for at least 2 hours), not 8 or 24 hours."
+  },
+  {
+    "id": 10,
+    "domain": "LO 11.6",
+    "question": "Which statement about reporting symptoms during exercise electrocardiography is correct?",
+    "options": [
+      "Patients should be encouraged to report shortness of breath, weakness, dizziness, or fatigue during the test",
+      "Patients should only report symptoms if they become severe",
+      "Patients should wait until after the test to mention any symptoms",
+      "Only the physician needs to watch for symptoms; the patient does not need to report them"
+    ],
+    "correct": 0,
+    "explanation": "Patients are instructed to immediately report any pain, shortness of breath, faintness, tingling, numbness, or extreme fatigue as soon as it occurs, since this information is critical to patient safety and test accuracy."
+  },
+  {
+    "id": 11,
+    "domain": "LO 11.8",
+    "question": "Which posttest instruction is correct?",
+    "options": [
+      "The patient may take a hot shower or bath immediately after the test",
+      "The patient should avoid a hot shower or bath for at least 2 hours after the test",
+      "The patient should avoid a hot shower or bath for at least 24 hours after the test",
+      "There is no restriction on temperature exposure after the test"
+    ],
+    "correct": 1,
+    "explanation": "Patients should avoid extreme temperature changes, including a hot shower or bath, for at least 2 hours after the test, and should rest and recuperate."
+  },
+  {
+    "id": 12,
+    "domain": "LO 11.8",
+    "question": "Who is responsible for discussing exercise electrocardiography results with the patient?",
+    "options": [
+      "The healthcare professional, as soon as results are available",
+      "The physician, not the healthcare professional performing the test",
+      "Either the physician or the healthcare professional, whoever is available first",
+      "The patient is expected to interpret their own tracing"
+    ],
+    "correct": 1,
+    "explanation": "The healthcare professional performing the test is not responsible for reporting results. If a patient asks about results, they should be referred to the physician."
+  },
+  {
+    "id": 13,
+    "domain": "LO 11.4",
+    "question": "Which instruction about clothing on the day of the test is correct?",
+    "options": [
+      "Patients should wear whatever they normally wear to work",
+      "Patients should wear comfortable, casual clothing, including tennis shoes and loose-fitting pants",
+      "Patients should wear dress clothes so the physician can assess their gait",
+      "Clothing does not matter as long as the patient is comfortable"
+    ],
+    "correct": 1,
+    "explanation": "Comfortable clothing such as tennis shoes and loose pants make the exercise portion of the test easier and safer for the patient."
+  },
+  {
+    "id": 14,
+    "domain": "LO 11.6",
+    "question": "How does lead placement for exercise electrocardiography compare to an ambulatory (Holter) monitor?",
+    "options": [
+      "They use identical lead sites for both procedures",
+      "Exercise ECG leads follow the traditional 12-lead precordial pattern, but limb sensors move to the upper chest and torso (Mason-Likar placement) rather than the arms and legs used for a resting ECG",
+      "Exercise ECG uses only 3 leads, the same as a standard ambulatory monitor",
+      "Lead placement is left entirely to the physician's preference with no standard pattern"
+    ],
+    "correct": 1,
+    "explanation": "Precordial (V1-V6) placement for stress testing is nearly the same as a traditional 12-lead ECG, but the limb leads are relocated to the torso (Mason-Likar technique) to accommodate movement on the treadmill and reduce artifact and tripping risk."
+  },
+  {
+    "id": 15,
+    "domain": "LO 11.6",
+    "question": "Which statement about emergency preparedness during exercise electrocardiography is correct?",
+    "options": [
+      "Emergency equipment should be available in the room or nearby, including a crash cart with a defibrillator",
+      "Emergency equipment is only necessary for chemical stress tests, not treadmill tests",
+      "The physician is responsible for bringing emergency equipment if needed; it does not need to be prepared in advance",
+      "Emergency equipment is optional if the patient has no cardiac history"
+    ],
+    "correct": 0,
+    "explanation": "Because exercise electrocardiography is performed on at-risk patients, a crash cart and working defibrillator must be ready and nearby for every test, along with a physician present in the room."
+  },
+  {
+    "id": 16,
+    "domain": "LO 11.3",
+    "question": "Which definition matches the term 'chemical stress test'?",
+    "options": [
+      "Exercise electrocardiography that is invasive because of the injection of a radiopaque substance to view the vessels around the heart",
+      "A stress test performed after administering medications that increase heart rate or dilate the coronary vessels, used for patients who cannot perform regular exercise",
+      "A physician who specializes in the use of radioactive substances to diagnose disease",
+      "A test that uses ultrasound to study the heart, its valves, and blood vessels"
+    ],
+    "correct": 1,
+    "explanation": "A chemical stress test uses IV medications such as adenosine, Persantine, dobutamine, or Lexiscan to simulate the cardiac effects of exercise for patients who cannot walk or pedal."
+  },
+  {
+    "id": 17,
+    "domain": "LO 11.2",
+    "question": "Which definition matches the term 'myocardium'?",
+    "options": [
+      "The middle layer of the heart, composed of muscle tissue",
+      "Narrowing of the coronary blood vessels",
+      "A rough piece of material used to abrade the skin before electrode placement",
+      "A physician who specializes in the study of the heart"
+    ],
+    "correct": 0,
+    "explanation": "The myocardium is the muscular middle layer of the heart wall; it's the tissue that needs additional oxygen when the heart works harder during exercise."
+  },
+  {
+    "id": 18,
+    "domain": "LO 11.5",
+    "question": "Which definition matches the term 'hypertension'?",
+    "options": [
+      "Low blood pressure",
+      "High blood pressure",
+      "An irregular heart rhythm",
+      "Failure of the heart to pump an adequate amount of blood"
+    ],
+    "correct": 1,
+    "explanation": "Hypertension is high blood pressure, one of the health conditions that can prevent a patient from safely undergoing exercise electrocardiography if uncontrolled."
+  },
+  {
+    "id": 19,
+    "domain": "LO 11.4",
+    "question": "Which definition matches the term 'beta blocker'?",
+    "options": [
+      "A medication used to treat hypertension",
+      "A radioactive tracer used in nuclear stress testing",
+      "A protocol used for treadmill speed and incline",
+      "A device used to abrade the skin before electrode placement"
+    ],
+    "correct": 0,
+    "explanation": "Beta blockers are medications for hypertension that are frequently withheld before stress testing because they can affect the heart rate response and test results."
+  },
+  {
+    "id": 20,
+    "domain": "LO 11.3",
+    "question": "Which definition matches the term 'nuclear stress test'?",
+    "options": [
+      "A stress test that combines exercise with an echocardiogram to assess left ventricular wall motion",
+      "A stress test in which radioactive tracers are administered to trace the path of blood through the heart",
+      "A resting ECG performed while the patient is supine",
+      "A stress test performed exclusively on a cycle ergometer"
+    ],
+    "correct": 1,
+    "explanation": "In a nuclear stress test, a radioactive tracer is injected and a gamma camera images the heart to trace blood flow, helping identify areas of reduced perfusion."
+  },
+  {
+    "id": 21,
+    "domain": "LO 11.2",
+    "question": "Which definition matches the term 'angina'?",
+    "options": [
+      "Pain or pressure in the chest when the heart muscle does not receive enough oxygen",
+      "A rapid, irregular heartbeat with no known cause",
+      "A test result that falsely indicates disease is present",
+      "The narrowing of coronary blood vessels due to plaque buildup"
+    ],
+    "correct": 0,
+    "explanation": "Angina is chest pain or pressure caused by inadequate oxygen supply to the heart muscle, often due to partial or complete blockage of a coronary artery."
+  },
+  {
+    "id": 22,
+    "domain": "LO 11.7",
+    "question": "Which definition matches the term 'dysrhythmia'?",
+    "options": [
+      "Loss of the normal rhythm of the heartbeat",
+      "A measurement found by multiplying systolic blood pressure by heart rate",
+      "The point at which a patient reaches their target heart rate",
+      "A medication that dilates the coronary vessels"
+    ],
+    "correct": 0,
+    "explanation": "A dysrhythmia is an abnormal heart rhythm. Identifying dysrhythmias that occur during exercise is one of the key uses of exercise electrocardiography."
+  },
+  {
+    "id": 23,
+    "domain": "LO 11.3",
+    "question": "Which definition matches the term 'cardiologist'?",
+    "options": [
+      "A physician who specializes in the study of the heart",
+      "A physician who specializes in the use of radioactive substances to diagnose and treat disease",
+      "A technician who operates the gamma camera during a nuclear stress test",
+      "A nurse who administers IV stress medications"
+    ],
+    "correct": 0,
+    "explanation": "A cardiologist specializes in the heart and is typically the physician present during exercise electrocardiography and the one who interprets stress echocardiogram results."
+  },
+  {
+    "id": 24,
+    "domain": "LO 11.5",
+    "question": "Which definition matches the term 'congestive heart failure (CHF)'?",
+    "options": [
+      "Narrowing of the coronary blood vessels, reducing blood flow to the heart",
+      "Failure of the heart to pump an adequate amount of blood to the body's tissues",
+      "A false indication that disease is present when it is not",
+      "High blood pressure"
+    ],
+    "correct": 1,
+    "explanation": "CHF is the heart's failure to pump an adequate volume of blood to body tissues, and it is one of the conditions that can prevent a patient from performing exercise electrocardiography."
+  },
+  {
+    "id": 25,
+    "domain": "LO 11.2",
+    "question": "Which definition matches the term 'coronary vascular disease (CVD)'?",
+    "options": [
+      "Accumulation of plaque and fatty deposits in the coronary arteries, narrowing the vessels",
+      "An oppressive pressure in the chest caused by hyperventilation",
+      "A test that uses sound waves to visualize the heart",
+      "A rapid rise in heart rate during the recovery phase of a stress test"
+    ],
+    "correct": 0,
+    "explanation": "CVD, usually from atherosclerosis, narrows the coronary vessels so blood flow can't increase enough during exercise, which is the most common reason a stress test is ordered."
+  },
+  {
+    "id": 26,
+    "domain": "LO 11.3",
+    "question": "Which definition matches the term 'echocardiogram'?",
+    "options": [
+      "A noninvasive diagnostic test that uses ultrasound to study the heart, heart valves, and blood vessels",
+      "A test in which radioactive tracers trace the path of blood through the heart",
+      "A test that measures systolic blood pressure multiplied by heart rate",
+      "A medication that increases heart rate and contractility"
+    ],
+    "correct": 0,
+    "explanation": "An echocardiogram uses ultrasound to visualize the heart, its valves, and the major vessels; combined with a stress test, it becomes a stress echocardiogram."
+  },
+  {
+    "id": 27,
+    "domain": "LO 11.8",
+    "question": "Which definition matches the term 'false positive'?",
+    "options": [
+      "A diagnostic test result indicating that disease is present when in reality it is not",
+      "A diagnostic test result indicating that disease is absent when in reality it is present",
+      "A test that could not be completed due to patient fatigue",
+      "A normal echocardiogram result confirmed by two separate physicians"
+    ],
+    "correct": 0,
+    "explanation": "A false positive suggests disease is present when it isn't. Research shows this happens more often in females than males, and it's never considered a negative result."
+  },
+  {
+    "id": 28,
+    "domain": "LO 11.7",
+    "question": "Which definition matches the term 'target heart rate (THR)'?",
+    "options": [
+      "220 minus the patient's age, with no further calculation",
+      "220 minus the patient's age, multiplied by a percentage between 60 and 85 depending on the protocol",
+      "The heart rate at which the cooldown period officially ends",
+      "The average of the patient's resting and standing heart rates"
+    ],
+    "correct": 1,
+    "explanation": "THR for a stress test (submaximal exercise) is 220 minus age, multiplied by a percentage (typically up to 85%). This differs from the simpler 220-minus-age formula used for general aerobic exercise (maximal exercise)."
+  },
+  {
+    "id": 29,
+    "domain": "LO 11.6",
+    "question": "For exercise electrocardiography, the limb lead sensors (RA, LA, RL, LL) are relocated from the arms and legs to which location, per the Mason-Likar attachment technique shown in Figure 11-6?",
+    "options": [
+      "The upper chest and torso",
+      "The lower abdomen, near the waistband",
+      "The back, directly opposite the precordial leads",
+      "The wrists and ankles, taped more securely than usual"
+    ],
+    "correct": 0,
+    "explanation": "In the Mason-Likar placement used for stress testing, RA and LA move to the upper chest below the clavicles, and RL and LL move to the torso near the lower ribs (avoiding the belt line), while V1-V6 stay in their standard precordial positions. This reduces artifact and the risk of tripping over lead wires."
+  },
+  {
+    "id": 30,
+    "domain": "LO 11.1",
+    "question": "True or False: A noninvasive procedure requires entrance into a body cavity, tissue, or blood vessel.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "explanation": "False. Noninvasive means the opposite: the procedure does NOT require entrance into a body cavity, tissue, or blood vessel."
+  },
+  {
+    "id": 31,
+    "domain": "LO 11.7",
+    "question": "True or False: A Naughton protocol is the most commonly utilized protocol for a stress test.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "explanation": "False. The Bruce protocol is the most commonly used stress test protocol. Naughton is better suited to sicker patients who need a more gradual increase in intensity."
+  },
+  {
+    "id": 32,
+    "domain": "LO 11.7",
+    "question": "True or False: A modified Bruce protocol is most often used during a stress test for patients with an exercise capacity limited by cardiac disease.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "explanation": "True. The modified Bruce protocol starts at a lower workload (0% grade) and is often used for older individuals or those whose exercise capacity is limited by cardiac disease."
+  },
+  {
+    "id": 33,
+    "domain": "LO 11.7",
+    "question": "True or False: A 12-lead ECG is obtained toward the beginning of each stage of exercise electrocardiography.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "explanation": "False. A blood pressure and 12-lead ECG are obtained toward the END of each exercise stage, not the beginning."
+  },
+  {
+    "id": 34,
+    "domain": "LO 11.8",
+    "question": "True or False: After a stress test, the patient should avoid alcohol, tobacco, and caffeine for at least 3 hours.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "explanation": "True. This 3-hour restriction after the test matches the 3-hour restriction observed before the test."
+  },
+  {
+    "id": 35,
+    "domain": "LO 11.1",
+    "question": "True or False: A patient should take all of his prescribed medications on the day of his stress test.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "explanation": "False. Certain medications, especially beta blockers, are often held before the test because they can affect results. Always check the physician's order rather than assuming all medications should be taken."
+  }
+]
